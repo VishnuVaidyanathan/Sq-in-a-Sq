@@ -9,6 +9,9 @@ This is a slow, simple search written for clarity. It is not expected to match t
 programs behind the published records. It is a first tool to see where the box can shrink.
 """
 import argparse, csv, math, os, time
+# one thread per search: several searches run side by side, and extra threads only get in each other's way
+for _k in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
+    os.environ.setdefault(_k, "1")
 import numpy as np
 from scipy.optimize import minimize
 import band_table as bt
