@@ -54,3 +54,55 @@ None of these beat the record.
 - Is there a formula behind the soft ladders, with the angle shifting a little from one n to the next?
 - What stops the channel-kind small block from going steeper than about 30°?
 - No full public table exists for n = 325 to 1000.
+
+## The band rule (found while building the table)
+
+Every ladder whose decimal comes from √2 is one idea: a block of unit squares turned 45°, p squares wide, with straight squares stacked in the corners. The decimal part of the side is the decimal part of p/√2, or of p/√2 + 1/2 when the block sits half a tile off centre.
+
+| Decimal | Band width p | | Decimal | Band width p |
+|---|---|---|---|---|
+| .7071 | 1 | | .5711 | 10, half shift |
+| .5355 | 5 | | .6924 | 13, half shift |
+| .9497 | 7 | | .8995 | 14 |
+| .6569 | 8 | | .6066 | 15 |
+| .7782 | 11 | | .5208 | 17, half shift |
+
+A small program (`band_table.py`) builds every such layout and checks it tile against tile. For n ≤ 324 it reproduces 46 of the 147 published tilted records exactly and never goes below a published record, which is a good sign that it builds only valid packings.
+
+## Candidates for n = 325 to 1000
+
+Here m runs from 18 to 31 and n = m² + x.
+
+**Group 1: top of each block (not built yet, most promising).**
+The pattern in the data says tilting should win up to x = m + 1. Our built layouts stop well short of that.
+
+| Slot | Expected decimal | Which m |
+|---|---|---|
+| m² + (m − 1) | about .957 | 20 to 31 |
+| m² + (m − 2) | about .94 | 21 to 31 |
+| m² + m | about .975 | 19 to 31 |
+| m² + (m + 1) | about .99 | 18 to 31 |
+
+Start with m² + (m − 1): 419, 461, 505, 551, 599, 649, 701, 755, 811, 869, 929, 991. This is the n = 131, 155, 181 family. The channel rule gives side (m − 3) + 3.957 if the same small block is used.
+
+**Group 2: 45° bands (built and checked).**
+192 values of n are a band layout as it stands, and more follow by adding an L or removing tiles. The full list is in the table. The largest gains over the pattern prediction are at 26²+12, 22²+5, 29²+9, 31²+13 and 29²+8.
+
+**Group 3: ladders without a formula yet.**
+The .8467 ladder gained exactly 2 tiles every 3 blocks at m = 7, 10, 13, 16. If that holds: 19²+13, 22²+15, 25²+17, 28²+19, 31²+21. The .8229 ladder (a √7 family) and the odd-angle soft ladders are not built by the band program.
+
+## First pass table: n = 325 to 1000
+
+`table_325_to_1000.csv` has one row for every n, with three sides:
+
+1. **Proven floor.** No packing can be smaller. It is the larger of √n and 1/2 + √(n − ⌊√n⌋ + 1/4). The second bound is a 2026 result that we took from MathWorld's summary and have not checked ourselves.
+2. **Predicted side.** What the pattern from n ≤ 324 says should be reachable: either a published record carried up by adding L's, or the one-row waste pattern fitted on blocks 15 to 17. This is a guess, not a result.
+3. **Built and checked side.** The smallest box in which we have actually built n tiles, with every pair of tiles tested for overlap. So far these are only plain grids and 45° bands.
+
+Where the first pass stands, over the 663 non-square n:
+
+- Built is below the plain grid for 302 of them. The prediction is below the grid for 357.
+- Built beats the prediction for 105, matches it for 9, and falls short for 243 (by 0.019 on average, 0.067 at most).
+- For 55 of those 243 we have only the plain grid.
+
+We have no table of real records above n = 324, apart from n = 626, which the band program matches (25.5208). So we cannot say which of these, if any, are new.

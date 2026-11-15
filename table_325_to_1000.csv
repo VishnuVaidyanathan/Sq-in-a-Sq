@@ -1,0 +1,677 @@
+n,as m^2+x,proven floor,predicted side,prediction based on,built and checked side,how it was built,built minus predicted,built minus floor
+325,18^2+1,18.0285,18.5331,one-row pattern fitted on blocks 15 to 17,18.5355,45deg band 5x17 in side 18.5355,+0.0025,0.5070
+326,18^2+2,18.0570,18.5355,"published record below 325, carried up by adding L",18.5711,45deg band 10x10 shifted half in side 18.5711,+0.0355,0.5140
+327,18^2+3,18.0855,18.5923,one-row pattern fitted on blocks 15 to 17,18.6213,"45deg band 3x22 shifted half in side 18.6213, -1 tiles",+0.0290,0.5358
+328,18^2+4,18.1139,18.6296,one-row pattern fitted on blocks 15 to 17,18.6213,45deg band 3x22 shifted half in side 18.6213,-0.0083,0.5074
+329,18^2+5,18.1423,18.6568,"published record below 325, carried up by adding L",18.6569,45deg band 8x15 in side 18.6569,+0.0000,0.5146
+330,18^2+6,18.1706,18.6897,one-row pattern fitted on blocks 15 to 17,18.7071,"45deg band 1x22 in side 18.7071, -1 tiles",+0.0174,0.5365
+331,18^2+7,18.1989,18.7071,"published record below 325, carried up by adding L",18.7071,45deg band 1x22 in side 18.7071,-0.0000,0.5082
+332,18^2+8,18.2271,18.7411,"published record below 325, carried up by adding L",18.7426,45deg band 6x18 shifted half in side 18.7426,+0.0016,0.5155
+333,18^2+9,18.2553,18.7739,one-row pattern fitted on blocks 15 to 17,18.7782,45deg band 11x11 in side 18.7782,+0.0042,0.5229
+334,18^2+10,18.2834,18.7922,one-row pattern fitted on blocks 15 to 17,18.8284,45deg band 4x18 in side 18.8284,+0.0362,0.5450
+335,18^2+11,18.3115,18.8223,one-row pattern fitted on blocks 15 to 17,18.8640,"45deg band 9x16 shifted half in side 18.8640, -1 tiles",+0.0417,0.5524
+336,18^2+12,18.3396,18.8376,one-row pattern fitted on blocks 15 to 17,18.8640,45deg band 9x16 shifted half in side 18.8640,+0.0263,0.5244
+337,18^2+13,18.3676,18.8714,one-row pattern fitted on blocks 15 to 17,18.9142,"45deg band 2x23 shifted half in side 18.9142, -1 tiles",+0.0429,0.5466
+338,18^2+14,18.3955,18.8992,one-row pattern fitted on blocks 15 to 17,18.9142,45deg band 2x23 shifted half in side 18.9142,+0.0150,0.5187
+339,18^2+15,18.4234,18.9290,one-row pattern fitted on blocks 15 to 17,18.9497,"45deg band 7x19 in side 18.9497, -1 tiles",+0.0207,0.5263
+340,18^2+16,18.4513,18.9495,one-row pattern fitted on blocks 15 to 17,18.9497,45deg band 7x19 in side 18.9497,+0.0003,0.4984
+341,18^2+17,18.4792,18.9622,one-row pattern fitted on blocks 15 to 17,19.0000,"plain grid 19x19, -20 tiles",+0.0378,0.5208
+342,18^2+18,18.5069,18.9748,one-row pattern fitted on blocks 15 to 17,19.0000,"plain grid 19x19, -19 tiles",+0.0252,0.4931
+343,18^2+19,18.5347,18.9887,one-row pattern fitted on blocks 15 to 17,19.0000,"plain grid 19x19, -18 tiles",+0.0113,0.4653
+344,18^2+20,18.5624,19.0000,plain grid expected,19.0000,"plain grid 19x19, -17 tiles",+0.0000,0.4376
+345,18^2+21,18.5901,19.0000,plain grid expected,19.0000,"plain grid 19x19, -16 tiles",+0.0000,0.4099
+346,18^2+22,18.6177,19.0000,plain grid expected,19.0000,"plain grid 19x19, -15 tiles",+0.0000,0.3823
+347,18^2+23,18.6452,19.0000,plain grid expected,19.0000,"plain grid 19x19, -14 tiles",+0.0000,0.3548
+348,18^2+24,18.6728,19.0000,plain grid expected,19.0000,"plain grid 19x19, -13 tiles",+0.0000,0.3272
+349,18^2+25,18.7003,19.0000,plain grid expected,19.0000,"plain grid 19x19, -12 tiles",+0.0000,0.2997
+350,18^2+26,18.7277,19.0000,plain grid expected,19.0000,"plain grid 19x19, -11 tiles",+0.0000,0.2723
+351,18^2+27,18.7551,19.0000,plain grid expected,19.0000,"plain grid 19x19, -10 tiles",+0.0000,0.2449
+352,18^2+28,18.7825,19.0000,plain grid expected,19.0000,"plain grid 19x19, -9 tiles",+0.0000,0.2175
+353,18^2+29,18.8098,19.0000,plain grid expected,19.0000,"plain grid 19x19, -8 tiles",+0.0000,0.1902
+354,18^2+30,18.8371,19.0000,plain grid expected,19.0000,"plain grid 19x19, -7 tiles",+0.0000,0.1629
+355,18^2+31,18.8644,19.0000,plain grid expected,19.0000,"plain grid 19x19, -6 tiles",+0.0000,0.1356
+356,18^2+32,18.8916,19.0000,plain grid expected,19.0000,"plain grid 19x19, -5 tiles",+0.0000,0.1084
+357,18^2+33,18.9187,19.0000,plain grid expected,19.0000,"plain grid 19x19, -4 tiles",+0.0000,0.0813
+358,18^2+34,18.9459,19.0000,plain grid expected,19.0000,"plain grid 19x19, -3 tiles",+0.0000,0.0541
+359,18^2+35,18.9730,19.0000,plain grid expected,19.0000,"plain grid 19x19, -2 tiles",+0.0000,0.0270
+360,18^2+36,19.0000,19.0000,plain grid expected,19.0000,"plain grid 19x19, -1 tiles",+0.0000,0.0000
+361,19^2+0,19.0000,19.0000,perfect square,19.0000,plain grid 19x19,+0.0000,0.0000
+362,19^2+1,19.0270,19.5321,one-row pattern fitted on blocks 15 to 17,19.5355,45deg band 5x17 in side 19.5355,+0.0035,0.5085
+363,19^2+2,19.0540,19.5355,"published record below 325, carried up by adding L",19.5711,45deg band 10x10 shifted half in side 19.5711,+0.0355,0.5171
+364,19^2+3,19.0809,19.5864,one-row pattern fitted on blocks 15 to 17,19.6213,"45deg band 3x22 shifted half in side 19.6213, -1 tiles",+0.0349,0.5404
+365,19^2+4,19.1078,19.6219,one-row pattern fitted on blocks 15 to 17,19.6213,45deg band 3x22 shifted half in side 19.6213,-0.0006,0.5135
+366,19^2+5,19.1346,19.6559,one-row pattern fitted on blocks 15 to 17,19.6569,45deg band 8x15 in side 19.6569,+0.0010,0.5222
+367,19^2+6,19.1615,19.6808,one-row pattern fitted on blocks 15 to 17,19.6924,"45deg band 13x13 shifted half in side 19.6924, -1 tiles",+0.0116,0.5309
+368,19^2+7,19.1882,19.7049,one-row pattern fitted on blocks 15 to 17,19.6924,45deg band 13x13 shifted half in side 19.6924,-0.0125,0.5042
+369,19^2+8,19.2150,19.7277,one-row pattern fitted on blocks 15 to 17,19.7071,45deg band 1x25 in side 19.7071,-0.0206,0.4921
+370,19^2+9,19.2417,19.7642,one-row pattern fitted on blocks 15 to 17,19.7782,45deg band 11x11 in side 19.7782,+0.0140,0.5365
+371,19^2+10,19.2683,19.7805,one-row pattern fitted on blocks 15 to 17,19.8284,"45deg band 4x23 in side 19.8284, -2 tiles",+0.0479,0.5601
+372,19^2+11,19.2949,19.8080,one-row pattern fitted on blocks 15 to 17,19.8284,"45deg band 4x23 in side 19.8284, -1 tiles",+0.0204,0.5335
+373,19^2+12,19.3215,19.8278,one-row pattern fitted on blocks 15 to 17,19.8284,45deg band 4x23 in side 19.8284,+0.0007,0.5069
+374,19^2+13,19.3481,19.8492,one-row pattern fitted on blocks 15 to 17,19.8995,"45deg band 14x14 in side 19.8995, -2 tiles",+0.0502,0.5514
+375,19^2+14,19.3746,19.8800,one-row pattern fitted on blocks 15 to 17,19.8995,"45deg band 14x14 in side 19.8995, -1 tiles",+0.0195,0.5249
+376,19^2+15,19.4011,19.9072,one-row pattern fitted on blocks 15 to 17,19.8995,45deg band 14x14 in side 19.8995,-0.0077,0.4984
+377,19^2+16,19.4275,19.9340,one-row pattern fitted on blocks 15 to 17,19.9497,45deg band 7x19 in side 19.9497,+0.0158,0.5223
+378,19^2+17,19.4539,19.9521,one-row pattern fitted on blocks 15 to 17,20.0000,"plain grid 20x20, -22 tiles",+0.0479,0.5461
+379,19^2+18,19.4803,19.9641,one-row pattern fitted on blocks 15 to 17,20.0000,"plain grid 20x20, -21 tiles",+0.0359,0.5197
+380,19^2+19,19.5066,19.9761,one-row pattern fitted on blocks 15 to 17,20.0000,"plain grid 20x20, -20 tiles",+0.0239,0.4934
+381,19^2+20,19.5329,19.9894,one-row pattern fitted on blocks 15 to 17,20.0000,"plain grid 20x20, -19 tiles",+0.0106,0.4671
+382,19^2+21,19.5591,20.0000,plain grid expected,20.0000,"plain grid 20x20, -18 tiles",+0.0000,0.4409
+383,19^2+22,19.5853,20.0000,plain grid expected,20.0000,"plain grid 20x20, -17 tiles",+0.0000,0.4147
+384,19^2+23,19.6115,20.0000,plain grid expected,20.0000,"plain grid 20x20, -16 tiles",+0.0000,0.3885
+385,19^2+24,19.6377,20.0000,plain grid expected,20.0000,"plain grid 20x20, -15 tiles",+0.0000,0.3623
+386,19^2+25,19.6638,20.0000,plain grid expected,20.0000,"plain grid 20x20, -14 tiles",+0.0000,0.3362
+387,19^2+26,19.6898,20.0000,plain grid expected,20.0000,"plain grid 20x20, -13 tiles",+0.0000,0.3102
+388,19^2+27,19.7159,20.0000,plain grid expected,20.0000,"plain grid 20x20, -12 tiles",+0.0000,0.2841
+389,19^2+28,19.7419,20.0000,plain grid expected,20.0000,"plain grid 20x20, -11 tiles",+0.0000,0.2581
+390,19^2+29,19.7678,20.0000,plain grid expected,20.0000,"plain grid 20x20, -10 tiles",+0.0000,0.2322
+391,19^2+30,19.7938,20.0000,plain grid expected,20.0000,"plain grid 20x20, -9 tiles",+0.0000,0.2062
+392,19^2+31,19.8197,20.0000,plain grid expected,20.0000,"plain grid 20x20, -8 tiles",+0.0000,0.1803
+393,19^2+32,19.8455,20.0000,plain grid expected,20.0000,"plain grid 20x20, -7 tiles",+0.0000,0.1545
+394,19^2+33,19.8714,20.0000,plain grid expected,20.0000,"plain grid 20x20, -6 tiles",+0.0000,0.1286
+395,19^2+34,19.8972,20.0000,plain grid expected,20.0000,"plain grid 20x20, -5 tiles",+0.0000,0.1028
+396,19^2+35,19.9229,20.0000,plain grid expected,20.0000,"plain grid 20x20, -4 tiles",+0.0000,0.0771
+397,19^2+36,19.9487,20.0000,plain grid expected,20.0000,"plain grid 20x20, -3 tiles",+0.0000,0.0513
+398,19^2+37,19.9743,20.0000,plain grid expected,20.0000,"plain grid 20x20, -2 tiles",+0.0000,0.0257
+399,19^2+38,20.0000,20.0000,plain grid expected,20.0000,"plain grid 20x20, -1 tiles",+0.0000,0.0000
+400,20^2+0,20.0000,20.0000,perfect square,20.0000,plain grid 20x20,+0.0000,0.0000
+401,20^2+1,20.0256,20.5311,one-row pattern fitted on blocks 15 to 17,20.5355,45deg band 5x17 in side 20.5355,+0.0044,0.5099
+402,20^2+2,20.0512,20.5355,"published record below 325, carried up by adding L",20.5711,45deg band 10x17 shifted half in side 20.5711,+0.0355,0.5199
+403,20^2+3,20.0768,20.5810,one-row pattern fitted on blocks 15 to 17,20.6213,"45deg band 3x22 shifted half in side 20.6213, -1 tiles",+0.0404,0.5445
+404,20^2+4,20.1023,20.6150,one-row pattern fitted on blocks 15 to 17,20.6213,45deg band 3x22 shifted half in side 20.6213,+0.0063,0.5190
+405,20^2+5,20.1278,20.6493,one-row pattern fitted on blocks 15 to 17,20.6569,"45deg band 8x20 in side 20.6569, -1 tiles",+0.0076,0.5291
+406,20^2+6,20.1532,20.6726,one-row pattern fitted on blocks 15 to 17,20.6569,45deg band 8x20 in side 20.6569,-0.0157,0.5036
+407,20^2+7,20.1787,20.6994,one-row pattern fitted on blocks 15 to 17,20.6924,45deg band 13x13 shifted half in side 20.6924,-0.0070,0.5137
+408,20^2+8,20.2041,20.7155,one-row pattern fitted on blocks 15 to 17,20.7071,45deg band 1x25 in side 20.7071,-0.0084,0.5030
+409,20^2+9,20.2294,20.7499,one-row pattern fitted on blocks 15 to 17,20.7782,"45deg band 11x18 in side 20.7782, -1 tiles",+0.0283,0.5488
+410,20^2+10,20.2547,20.7755,one-row pattern fitted on blocks 15 to 17,20.7782,45deg band 11x18 in side 20.7782,+0.0026,0.5234
+411,20^2+11,20.2800,20.7909,one-row pattern fitted on blocks 15 to 17,20.8284,"45deg band 4x23 in side 20.8284, -1 tiles",+0.0375,0.5484
+412,20^2+12,20.3053,20.8208,one-row pattern fitted on blocks 15 to 17,20.8284,45deg band 4x23 in side 20.8284,+0.0076,0.5231
+413,20^2+13,20.3305,20.8327,one-row pattern fitted on blocks 15 to 17,20.8995,"45deg band 14x14 in side 20.8995, -3 tiles",+0.0668,0.5690
+414,20^2+14,20.3557,20.8608,one-row pattern fitted on blocks 15 to 17,20.8995,"45deg band 14x14 in side 20.8995, -2 tiles",+0.0387,0.5438
+415,20^2+15,20.3809,20.8870,one-row pattern fitted on blocks 15 to 17,20.8995,"45deg band 14x14 in side 20.8995, -1 tiles",+0.0125,0.5186
+416,20^2+16,20.4060,20.9142,one-row pattern fitted on blocks 15 to 17,20.8995,45deg band 14x14 in side 20.8995,-0.0147,0.4935
+417,20^2+17,20.4311,20.9384,one-row pattern fitted on blocks 15 to 17,20.9497,45deg band 7x21 in side 20.9497,+0.0114,0.5186
+418,20^2+18,20.4562,20.9544,one-row pattern fitted on blocks 15 to 17,21.0000,"plain grid 21x21, -23 tiles",+0.0456,0.5438
+419,20^2+19,20.4812,20.9659,one-row pattern fitted on blocks 15 to 17,21.0000,"plain grid 21x21, -22 tiles",+0.0341,0.5188
+420,20^2+20,20.5062,20.9773,one-row pattern fitted on blocks 15 to 17,21.0000,"plain grid 21x21, -21 tiles",+0.0227,0.4938
+421,20^2+21,20.5312,20.9899,one-row pattern fitted on blocks 15 to 17,21.0000,"plain grid 21x21, -20 tiles",+0.0101,0.4688
+422,20^2+22,20.5562,21.0000,plain grid expected,21.0000,"plain grid 21x21, -19 tiles",+0.0000,0.4438
+423,20^2+23,20.5811,21.0000,plain grid expected,21.0000,"plain grid 21x21, -18 tiles",+0.0000,0.4189
+424,20^2+24,20.6060,21.0000,plain grid expected,21.0000,"plain grid 21x21, -17 tiles",+0.0000,0.3940
+425,20^2+25,20.6308,21.0000,plain grid expected,21.0000,"plain grid 21x21, -16 tiles",+0.0000,0.3692
+426,20^2+26,20.6556,21.0000,plain grid expected,21.0000,"plain grid 21x21, -15 tiles",+0.0000,0.3444
+427,20^2+27,20.6804,21.0000,plain grid expected,21.0000,"plain grid 21x21, -14 tiles",+0.0000,0.3196
+428,20^2+28,20.7052,21.0000,plain grid expected,21.0000,"plain grid 21x21, -13 tiles",+0.0000,0.2948
+429,20^2+29,20.7299,21.0000,plain grid expected,21.0000,"plain grid 21x21, -12 tiles",+0.0000,0.2701
+430,20^2+30,20.7546,21.0000,plain grid expected,21.0000,"plain grid 21x21, -11 tiles",+0.0000,0.2454
+431,20^2+31,20.7793,21.0000,plain grid expected,21.0000,"plain grid 21x21, -10 tiles",+0.0000,0.2207
+432,20^2+32,20.8039,21.0000,plain grid expected,21.0000,"plain grid 21x21, -9 tiles",+0.0000,0.1961
+433,20^2+33,20.8286,21.0000,plain grid expected,21.0000,"plain grid 21x21, -8 tiles",+0.0000,0.1714
+434,20^2+34,20.8531,21.0000,plain grid expected,21.0000,"plain grid 21x21, -7 tiles",+0.0000,0.1469
+435,20^2+35,20.8777,21.0000,plain grid expected,21.0000,"plain grid 21x21, -6 tiles",+0.0000,0.1223
+436,20^2+36,20.9022,21.0000,plain grid expected,21.0000,"plain grid 21x21, -5 tiles",+0.0000,0.0978
+437,20^2+37,20.9267,21.0000,plain grid expected,21.0000,"plain grid 21x21, -4 tiles",+0.0000,0.0733
+438,20^2+38,20.9512,21.0000,plain grid expected,21.0000,"plain grid 21x21, -3 tiles",+0.0000,0.0488
+439,20^2+39,20.9756,21.0000,plain grid expected,21.0000,"plain grid 21x21, -2 tiles",+0.0000,0.0244
+440,20^2+40,21.0000,21.0000,plain grid expected,21.0000,"plain grid 21x21, -1 tiles",+0.0000,0.0000
+441,21^2+0,21.0000,21.0000,perfect square,21.0000,plain grid 21x21,+0.0000,0.0000
+442,21^2+1,21.0244,21.5303,one-row pattern fitted on blocks 15 to 17,21.5355,45deg band 5x17 in side 21.5355,+0.0052,0.5112
+443,21^2+2,21.0487,21.5355,"published record below 325, carried up by adding L",21.5711,45deg band 10x17 shifted half in side 21.5711,+0.0355,0.5223
+444,21^2+3,21.0730,21.5760,one-row pattern fitted on blocks 15 to 17,21.6066,"45deg band 15x15 in side 21.6066, -1 tiles",+0.0306,0.5336
+445,21^2+4,21.0973,21.6093,one-row pattern fitted on blocks 15 to 17,21.6066,45deg band 15x15 in side 21.6066,-0.0027,0.5093
+446,21^2+5,21.1216,21.6422,one-row pattern fitted on blocks 15 to 17,21.6569,"45deg band 8x20 in side 21.6569, -1 tiles",+0.0146,0.5353
+447,21^2+6,21.1458,21.6666,one-row pattern fitted on blocks 15 to 17,21.6569,45deg band 8x20 in side 21.6569,-0.0097,0.5110
+448,21^2+7,21.1700,21.6915,one-row pattern fitted on blocks 15 to 17,21.6924,45deg band 13x13 shifted half in side 21.6924,+0.0009,0.5224
+449,21^2+8,21.1942,21.7096,one-row pattern fitted on blocks 15 to 17,21.7071,45deg band 1x25 in side 21.7071,-0.0025,0.5129
+450,21^2+9,21.2183,21.7346,one-row pattern fitted on blocks 15 to 17,21.7782,"45deg band 11x18 in side 21.7782, -2 tiles",+0.0436,0.5598
+451,21^2+10,21.2425,21.7666,one-row pattern fitted on blocks 15 to 17,21.7782,"45deg band 11x18 in side 21.7782, -1 tiles",+0.0116,0.5357
+452,21^2+11,21.2666,21.7815,one-row pattern fitted on blocks 15 to 17,21.7782,45deg band 11x18 in side 21.7782,-0.0033,0.5116
+453,21^2+12,21.2906,21.8041,one-row pattern fitted on blocks 15 to 17,21.8284,"45deg band 4x25 in side 21.8284, -1 tiles",+0.0243,0.5378
+454,21^2+13,21.3147,21.8269,one-row pattern fitted on blocks 15 to 17,21.8284,45deg band 4x25 in side 21.8284,+0.0015,0.5138
+455,21^2+14,21.3387,21.8403,one-row pattern fitted on blocks 15 to 17,21.8640,"45deg band 9x21 shifted half in side 21.8640, -1 tiles",+0.0236,0.5253
+456,21^2+15,21.3626,21.8699,one-row pattern fitted on blocks 15 to 17,21.8640,45deg band 9x21 shifted half in side 21.8640,-0.0060,0.5013
+457,21^2+16,21.3866,21.8937,one-row pattern fitted on blocks 15 to 17,21.8995,45deg band 14x14 in side 21.8995,+0.0058,0.5129
+458,21^2+17,21.4105,21.9205,one-row pattern fitted on blocks 15 to 17,21.9142,45deg band 2x28 shifted half in side 21.9142,-0.0063,0.5037
+459,21^2+18,21.4344,21.9424,one-row pattern fitted on blocks 15 to 17,22.0000,"plain grid 22x22, -25 tiles",+0.0576,0.5656
+460,21^2+19,21.4583,21.9565,one-row pattern fitted on blocks 15 to 17,22.0000,"plain grid 22x22, -24 tiles",+0.0435,0.5417
+461,21^2+20,21.4821,21.9675,one-row pattern fitted on blocks 15 to 17,22.0000,"plain grid 22x22, -23 tiles",+0.0325,0.5179
+462,21^2+21,21.5060,21.9784,one-row pattern fitted on blocks 15 to 17,22.0000,"plain grid 22x22, -22 tiles",+0.0216,0.4940
+463,21^2+22,21.5297,21.9904,one-row pattern fitted on blocks 15 to 17,22.0000,"plain grid 22x22, -21 tiles",+0.0096,0.4703
+464,21^2+23,21.5535,22.0000,plain grid expected,22.0000,"plain grid 22x22, -20 tiles",+0.0000,0.4465
+465,21^2+24,21.5772,22.0000,plain grid expected,22.0000,"plain grid 22x22, -19 tiles",+0.0000,0.4228
+466,21^2+25,21.6009,22.0000,plain grid expected,22.0000,"plain grid 22x22, -18 tiles",+0.0000,0.3991
+467,21^2+26,21.6246,22.0000,plain grid expected,22.0000,"plain grid 22x22, -17 tiles",+0.0000,0.3754
+468,21^2+27,21.6483,22.0000,plain grid expected,22.0000,"plain grid 22x22, -16 tiles",+0.0000,0.3517
+469,21^2+28,21.6719,22.0000,plain grid expected,22.0000,"plain grid 22x22, -15 tiles",+0.0000,0.3281
+470,21^2+29,21.6955,22.0000,plain grid expected,22.0000,"plain grid 22x22, -14 tiles",+0.0000,0.3045
+471,21^2+30,21.7191,22.0000,plain grid expected,22.0000,"plain grid 22x22, -13 tiles",+0.0000,0.2809
+472,21^2+31,21.7426,22.0000,plain grid expected,22.0000,"plain grid 22x22, -12 tiles",+0.0000,0.2574
+473,21^2+32,21.7662,22.0000,plain grid expected,22.0000,"plain grid 22x22, -11 tiles",+0.0000,0.2338
+474,21^2+33,21.7897,22.0000,plain grid expected,22.0000,"plain grid 22x22, -10 tiles",+0.0000,0.2103
+475,21^2+34,21.8131,22.0000,plain grid expected,22.0000,"plain grid 22x22, -9 tiles",+0.0000,0.1869
+476,21^2+35,21.8366,22.0000,plain grid expected,22.0000,"plain grid 22x22, -8 tiles",+0.0000,0.1634
+477,21^2+36,21.8600,22.0000,plain grid expected,22.0000,"plain grid 22x22, -7 tiles",+0.0000,0.1400
+478,21^2+37,21.8834,22.0000,plain grid expected,22.0000,"plain grid 22x22, -6 tiles",+0.0000,0.1166
+479,21^2+38,21.9068,22.0000,plain grid expected,22.0000,"plain grid 22x22, -5 tiles",+0.0000,0.0932
+480,21^2+39,21.9301,22.0000,plain grid expected,22.0000,"plain grid 22x22, -4 tiles",+0.0000,0.0699
+481,21^2+40,21.9534,22.0000,plain grid expected,22.0000,"plain grid 22x22, -3 tiles",+0.0000,0.0466
+482,21^2+41,21.9767,22.0000,plain grid expected,22.0000,"plain grid 22x22, -2 tiles",+0.0000,0.0233
+483,21^2+42,22.0000,22.0000,plain grid expected,22.0000,"plain grid 22x22, -1 tiles",+0.0000,0.0000
+484,22^2+0,22.0000,22.0000,perfect square,22.0000,plain grid 22x22,+0.0000,0.0000
+485,22^2+1,22.0232,22.5295,one-row pattern fitted on blocks 15 to 17,22.5355,45deg band 5x19 in side 22.5355,+0.0060,0.5123
+486,22^2+2,22.0465,22.5355,"published record below 325, carried up by adding L",22.5711,45deg band 10x17 shifted half in side 22.5711,+0.0355,0.5246
+487,22^2+3,22.0697,22.5716,one-row pattern fitted on blocks 15 to 17,22.6066,"45deg band 15x15 in side 22.6066, -2 tiles",+0.0350,0.5369
+488,22^2+4,22.0928,22.6045,one-row pattern fitted on blocks 15 to 17,22.6066,"45deg band 15x15 in side 22.6066, -1 tiles",+0.0021,0.5138
+489,22^2+5,22.1160,22.6352,one-row pattern fitted on blocks 15 to 17,22.6066,45deg band 15x15 in side 22.6066,-0.0286,0.4906
+490,22^2+6,22.1391,22.6615,one-row pattern fitted on blocks 15 to 17,22.6569,45deg band 8x20 in side 22.6569,-0.0046,0.5178
+491,22^2+7,22.1622,22.6837,one-row pattern fitted on blocks 15 to 17,22.6924,45deg band 13x13 shifted half in side 22.6924,+0.0087,0.5302
+492,22^2+8,22.1852,22.7053,one-row pattern fitted on blocks 15 to 17,22.7071,"45deg band 1x29 in side 22.7071, -1 tiles",+0.0018,0.5219
+493,22^2+9,22.2083,22.7217,one-row pattern fitted on blocks 15 to 17,22.7071,45deg band 1x29 in side 22.7071,-0.0146,0.4988
+494,22^2+10,22.2313,22.7545,one-row pattern fitted on blocks 15 to 17,22.7426,45deg band 6x25 shifted half in side 22.7426,-0.0119,0.5113
+495,22^2+11,22.2543,22.7769,one-row pattern fitted on blocks 15 to 17,22.7782,45deg band 11x18 in side 22.7782,+0.0013,0.5239
+496,22^2+12,22.2773,22.7901,one-row pattern fitted on blocks 15 to 17,22.8284,"45deg band 4x28 in side 22.8284, -2 tiles",+0.0384,0.5511
+497,22^2+13,22.3002,22.8176,one-row pattern fitted on blocks 15 to 17,22.8284,"45deg band 4x28 in side 22.8284, -1 tiles",+0.0109,0.5282
+498,22^2+14,22.3232,22.8311,one-row pattern fitted on blocks 15 to 17,22.8284,45deg band 4x28 in side 22.8284,-0.0027,0.5053
+499,22^2+15,22.3461,22.8502,one-row pattern fitted on blocks 15 to 17,22.8640,45deg band 9x21 shifted half in side 22.8640,+0.0137,0.5179
+500,22^2+16,22.3689,22.8777,one-row pattern fitted on blocks 15 to 17,22.8995,45deg band 14x14 in side 22.8995,+0.0218,0.5306
+501,22^2+17,22.3918,22.9001,one-row pattern fitted on blocks 15 to 17,22.9142,45deg band 2x28 shifted half in side 22.9142,+0.0141,0.5224
+502,22^2+18,22.4146,22.9262,one-row pattern fitted on blocks 15 to 17,22.9853,"45deg band 12x19 shifted half in side 22.9853, -2 tiles",+0.0591,0.5707
+503,22^2+19,22.4374,22.9459,one-row pattern fitted on blocks 15 to 17,22.9853,"45deg band 12x19 shifted half in side 22.9853, -1 tiles",+0.0394,0.5479
+504,22^2+20,22.4602,22.9585,one-row pattern fitted on blocks 15 to 17,22.9853,45deg band 12x19 shifted half in side 22.9853,+0.0268,0.5251
+505,22^2+21,22.4829,22.9690,one-row pattern fitted on blocks 15 to 17,23.0000,"plain grid 23x23, -24 tiles",+0.0310,0.5171
+506,22^2+22,22.5057,22.9794,one-row pattern fitted on blocks 15 to 17,23.0000,"plain grid 23x23, -23 tiles",+0.0206,0.4943
+507,22^2+23,22.5284,22.9909,one-row pattern fitted on blocks 15 to 17,23.0000,"plain grid 23x23, -22 tiles",+0.0091,0.4716
+508,22^2+24,22.5511,23.0000,plain grid expected,23.0000,"plain grid 23x23, -21 tiles",+0.0000,0.4489
+509,22^2+25,22.5737,23.0000,plain grid expected,23.0000,"plain grid 23x23, -20 tiles",+0.0000,0.4263
+510,22^2+26,22.5964,23.0000,plain grid expected,23.0000,"plain grid 23x23, -19 tiles",+0.0000,0.4036
+511,22^2+27,22.6190,23.0000,plain grid expected,23.0000,"plain grid 23x23, -18 tiles",+0.0000,0.3810
+512,22^2+28,22.6416,23.0000,plain grid expected,23.0000,"plain grid 23x23, -17 tiles",+0.0000,0.3584
+513,22^2+29,22.6642,23.0000,plain grid expected,23.0000,"plain grid 23x23, -16 tiles",+0.0000,0.3358
+514,22^2+30,22.6867,23.0000,plain grid expected,23.0000,"plain grid 23x23, -15 tiles",+0.0000,0.3133
+515,22^2+31,22.7092,23.0000,plain grid expected,23.0000,"plain grid 23x23, -14 tiles",+0.0000,0.2908
+516,22^2+32,22.7317,23.0000,plain grid expected,23.0000,"plain grid 23x23, -13 tiles",+0.0000,0.2683
+517,22^2+33,22.7542,23.0000,plain grid expected,23.0000,"plain grid 23x23, -12 tiles",+0.0000,0.2458
+518,22^2+34,22.7767,23.0000,plain grid expected,23.0000,"plain grid 23x23, -11 tiles",+0.0000,0.2233
+519,22^2+35,22.7991,23.0000,plain grid expected,23.0000,"plain grid 23x23, -10 tiles",+0.0000,0.2009
+520,22^2+36,22.8215,23.0000,plain grid expected,23.0000,"plain grid 23x23, -9 tiles",+0.0000,0.1785
+521,22^2+37,22.8439,23.0000,plain grid expected,23.0000,"plain grid 23x23, -8 tiles",+0.0000,0.1561
+522,22^2+38,22.8663,23.0000,plain grid expected,23.0000,"plain grid 23x23, -7 tiles",+0.0000,0.1337
+523,22^2+39,22.8886,23.0000,plain grid expected,23.0000,"plain grid 23x23, -6 tiles",+0.0000,0.1114
+524,22^2+40,22.9109,23.0000,plain grid expected,23.0000,"plain grid 23x23, -5 tiles",+0.0000,0.0891
+525,22^2+41,22.9332,23.0000,plain grid expected,23.0000,"plain grid 23x23, -4 tiles",+0.0000,0.0668
+526,22^2+42,22.9555,23.0000,plain grid expected,23.0000,"plain grid 23x23, -3 tiles",+0.0000,0.0445
+527,22^2+43,22.9778,23.0000,plain grid expected,23.0000,"plain grid 23x23, -2 tiles",+0.0000,0.0222
+528,22^2+44,23.0000,23.0000,plain grid expected,23.0000,"plain grid 23x23, -1 tiles",+0.0000,0.0000
+529,23^2+0,23.0000,23.0000,perfect square,23.0000,plain grid 23x23,+0.0000,0.0000
+530,23^2+1,23.0222,23.5288,one-row pattern fitted on blocks 15 to 17,23.5355,45deg band 5x24 in side 23.5355,+0.0067,0.5133
+531,23^2+2,23.0444,23.5355,"published record below 325, carried up by adding L",23.5711,"45deg band 10x22 shifted half in side 23.5711, -1 tiles",+0.0355,0.5267
+532,23^2+3,23.0666,23.5675,one-row pattern fitted on blocks 15 to 17,23.5711,45deg band 10x22 shifted half in side 23.5711,+0.0036,0.5045
+533,23^2+4,23.0887,23.5997,one-row pattern fitted on blocks 15 to 17,23.6066,"45deg band 15x15 in side 23.6066, -1 tiles",+0.0069,0.5179
+534,23^2+5,23.1108,23.6285,one-row pattern fitted on blocks 15 to 17,23.6066,45deg band 15x15 in side 23.6066,-0.0219,0.4958
+535,23^2+6,23.1329,23.6566,one-row pattern fitted on blocks 15 to 17,23.6569,45deg band 8x20 in side 23.6569,+0.0002,0.5239
+536,23^2+7,23.1550,23.6765,one-row pattern fitted on blocks 15 to 17,23.6924,45deg band 13x13 shifted half in side 23.6924,+0.0159,0.5374
+537,23^2+8,23.1771,23.7002,one-row pattern fitted on blocks 15 to 17,23.7071,"45deg band 1x29 in side 23.7071, -1 tiles",+0.0069,0.5300
+538,23^2+9,23.1991,23.7138,one-row pattern fitted on blocks 15 to 17,23.7071,45deg band 1x29 in side 23.7071,-0.0067,0.5080
+539,23^2+10,23.2211,23.7403,one-row pattern fitted on blocks 15 to 17,23.7426,45deg band 6x25 shifted half in side 23.7426,+0.0023,0.5215
+540,23^2+11,23.2431,23.7687,one-row pattern fitted on blocks 15 to 17,23.7782,45deg band 11x18 in side 23.7782,+0.0095,0.5350
+541,23^2+12,23.2651,23.7822,one-row pattern fitted on blocks 15 to 17,23.8137,"45deg band 16x16 shifted half in side 23.8137, -2 tiles",+0.0315,0.5486
+542,23^2+13,23.2871,23.8013,one-row pattern fitted on blocks 15 to 17,23.8137,"45deg band 16x16 shifted half in side 23.8137, -1 tiles",+0.0125,0.5267
+543,23^2+14,23.3090,23.8256,one-row pattern fitted on blocks 15 to 17,23.8137,45deg band 16x16 shifted half in side 23.8137,-0.0119,0.5047
+544,23^2+15,23.3309,23.8354,one-row pattern fitted on blocks 15 to 17,23.8284,45deg band 4x28 in side 23.8284,-0.0070,0.4975
+545,23^2+16,23.3528,23.8601,one-row pattern fitted on blocks 15 to 17,23.8995,45deg band 14x14 in side 23.8995,+0.0393,0.5467
+546,23^2+17,23.3747,23.8844,one-row pattern fitted on blocks 15 to 17,23.9142,"45deg band 2x30 shifted half in side 23.9142, -1 tiles",+0.0298,0.5396
+547,23^2+18,23.3965,23.9067,one-row pattern fitted on blocks 15 to 17,23.9142,45deg band 2x30 shifted half in side 23.9142,+0.0075,0.5177
+548,23^2+19,23.4183,23.9309,one-row pattern fitted on blocks 15 to 17,23.9497,"45deg band 7x26 in side 23.9497, -1 tiles",+0.0189,0.5314
+549,23^2+20,23.4401,23.9491,one-row pattern fitted on blocks 15 to 17,23.9497,45deg band 7x26 in side 23.9497,+0.0006,0.5096
+550,23^2+21,23.4619,23.9603,one-row pattern fitted on blocks 15 to 17,24.0000,"plain grid 24x24, -26 tiles",+0.0397,0.5381
+551,23^2+22,23.4837,23.9703,one-row pattern fitted on blocks 15 to 17,24.0000,"plain grid 24x24, -25 tiles",+0.0297,0.5163
+552,23^2+23,23.5054,23.9803,one-row pattern fitted on blocks 15 to 17,24.0000,"plain grid 24x24, -24 tiles",+0.0197,0.4946
+553,23^2+24,23.5272,23.9913,one-row pattern fitted on blocks 15 to 17,24.0000,"plain grid 24x24, -23 tiles",+0.0087,0.4728
+554,23^2+25,23.5489,24.0000,plain grid expected,24.0000,"plain grid 24x24, -22 tiles",+0.0000,0.4511
+555,23^2+26,23.5705,24.0000,plain grid expected,24.0000,"plain grid 24x24, -21 tiles",+0.0000,0.4295
+556,23^2+27,23.5922,24.0000,plain grid expected,24.0000,"plain grid 24x24, -20 tiles",+0.0000,0.4078
+557,23^2+28,23.6138,24.0000,plain grid expected,24.0000,"plain grid 24x24, -19 tiles",+0.0000,0.3862
+558,23^2+29,23.6355,24.0000,plain grid expected,24.0000,"plain grid 24x24, -18 tiles",+0.0000,0.3645
+559,23^2+30,23.6571,24.0000,plain grid expected,24.0000,"plain grid 24x24, -17 tiles",+0.0000,0.3429
+560,23^2+31,23.6787,24.0000,plain grid expected,24.0000,"plain grid 24x24, -16 tiles",+0.0000,0.3213
+561,23^2+32,23.7002,24.0000,plain grid expected,24.0000,"plain grid 24x24, -15 tiles",+0.0000,0.2998
+562,23^2+33,23.7218,24.0000,plain grid expected,24.0000,"plain grid 24x24, -14 tiles",+0.0000,0.2782
+563,23^2+34,23.7433,24.0000,plain grid expected,24.0000,"plain grid 24x24, -13 tiles",+0.0000,0.2567
+564,23^2+35,23.7648,24.0000,plain grid expected,24.0000,"plain grid 24x24, -12 tiles",+0.0000,0.2352
+565,23^2+36,23.7863,24.0000,plain grid expected,24.0000,"plain grid 24x24, -11 tiles",+0.0000,0.2137
+566,23^2+37,23.8077,24.0000,plain grid expected,24.0000,"plain grid 24x24, -10 tiles",+0.0000,0.1923
+567,23^2+38,23.8292,24.0000,plain grid expected,24.0000,"plain grid 24x24, -9 tiles",+0.0000,0.1708
+568,23^2+39,23.8506,24.0000,plain grid expected,24.0000,"plain grid 24x24, -8 tiles",+0.0000,0.1494
+569,23^2+40,23.8720,24.0000,plain grid expected,24.0000,"plain grid 24x24, -7 tiles",+0.0000,0.1280
+570,23^2+41,23.8934,24.0000,plain grid expected,24.0000,"plain grid 24x24, -6 tiles",+0.0000,0.1066
+571,23^2+42,23.9147,24.0000,plain grid expected,24.0000,"plain grid 24x24, -5 tiles",+0.0000,0.0853
+572,23^2+43,23.9361,24.0000,plain grid expected,24.0000,"plain grid 24x24, -4 tiles",+0.0000,0.0639
+573,23^2+44,23.9574,24.0000,plain grid expected,24.0000,"plain grid 24x24, -3 tiles",+0.0000,0.0426
+574,23^2+45,23.9787,24.0000,plain grid expected,24.0000,"plain grid 24x24, -2 tiles",+0.0000,0.0213
+575,23^2+46,24.0000,24.0000,plain grid expected,24.0000,"plain grid 24x24, -1 tiles",+0.0000,0.0000
+576,24^2+0,24.0000,24.0000,perfect square,24.0000,plain grid 24x24,+0.0000,0.0000
+577,24^2+1,24.0213,24.5282,one-row pattern fitted on blocks 15 to 17,24.5355,45deg band 5x24 in side 24.5355,+0.0073,0.5143
+578,24^2+2,24.0425,24.5355,"published record below 325, carried up by adding L",24.5711,"45deg band 10x22 shifted half in side 24.5711, -1 tiles",+0.0355,0.5286
+579,24^2+3,24.0637,24.5640,one-row pattern fitted on blocks 15 to 17,24.5711,45deg band 10x22 shifted half in side 24.5711,+0.0070,0.5073
+580,24^2+4,24.0850,24.5947,one-row pattern fitted on blocks 15 to 17,24.6066,"45deg band 15x15 in side 24.6066, -1 tiles",+0.0119,0.5216
+581,24^2+5,24.1061,24.6224,one-row pattern fitted on blocks 15 to 17,24.6066,45deg band 15x15 in side 24.6066,-0.0158,0.5005
+582,24^2+6,24.1273,24.6510,one-row pattern fitted on blocks 15 to 17,24.6569,45deg band 8x20 in side 24.6569,+0.0059,0.5295
+583,24^2+7,24.1485,24.6704,one-row pattern fitted on blocks 15 to 17,24.6924,"45deg band 13x20 shifted half in side 24.6924, -1 tiles",+0.0220,0.5439
+584,24^2+8,24.1696,24.6929,one-row pattern fitted on blocks 15 to 17,24.6924,45deg band 13x20 shifted half in side 24.6924,-0.0005,0.5228
+585,24^2+9,24.1907,24.7094,one-row pattern fitted on blocks 15 to 17,24.7071,"45deg band 1x32 in side 24.7071, -1 tiles",-0.0023,0.5164
+586,24^2+10,24.2118,24.7272,one-row pattern fitted on blocks 15 to 17,24.7071,45deg band 1x32 in side 24.7071,-0.0201,0.4953
+587,24^2+11,24.2329,24.7584,one-row pattern fitted on blocks 15 to 17,24.7782,"45deg band 11x23 in side 24.7782, -2 tiles",+0.0198,0.5453
+588,24^2+12,24.2539,24.7780,one-row pattern fitted on blocks 15 to 17,24.7782,"45deg band 11x23 in side 24.7782, -1 tiles",+0.0002,0.5242
+589,24^2+13,24.2750,24.7894,one-row pattern fitted on blocks 15 to 17,24.7782,45deg band 11x23 in side 24.7782,-0.0112,0.5032
+590,24^2+14,24.2960,24.8146,one-row pattern fitted on blocks 15 to 17,24.8137,45deg band 16x16 shifted half in side 24.8137,-0.0009,0.5177
+591,24^2+15,24.3170,24.8301,one-row pattern fitted on blocks 15 to 17,24.8284,45deg band 4x28 in side 24.8284,-0.0017,0.5114
+592,24^2+16,24.3380,24.8423,one-row pattern fitted on blocks 15 to 17,24.8995,"45deg band 14x21 in side 24.8995, -2 tiles",+0.0571,0.5615
+593,24^2+17,24.3590,24.8688,one-row pattern fitted on blocks 15 to 17,24.8995,"45deg band 14x21 in side 24.8995, -1 tiles",+0.0307,0.5405
+594,24^2+18,24.3799,24.8902,one-row pattern fitted on blocks 15 to 17,24.8995,45deg band 14x21 in side 24.8995,+0.0093,0.5196
+595,24^2+19,24.4008,24.9128,one-row pattern fitted on blocks 15 to 17,24.9142,45deg band 2x32 shifted half in side 24.9142,+0.0014,0.5134
+596,24^2+20,24.4217,24.9348,one-row pattern fitted on blocks 15 to 17,24.9497,45deg band 7x26 in side 24.9497,+0.0149,0.5280
+597,24^2+21,24.4426,24.9518,one-row pattern fitted on blocks 15 to 17,25.0000,"plain grid 25x25, -28 tiles",+0.0482,0.5574
+598,24^2+22,24.4635,24.9619,one-row pattern fitted on blocks 15 to 17,25.0000,"plain grid 25x25, -27 tiles",+0.0381,0.5365
+599,24^2+23,24.4844,24.9715,one-row pattern fitted on blocks 15 to 17,25.0000,"plain grid 25x25, -26 tiles",+0.0285,0.5156
+600,24^2+24,24.5052,24.9811,one-row pattern fitted on blocks 15 to 17,25.0000,"plain grid 25x25, -25 tiles",+0.0189,0.4948
+601,24^2+25,24.5260,24.9917,one-row pattern fitted on blocks 15 to 17,25.0000,"plain grid 25x25, -24 tiles",+0.0083,0.4740
+602,24^2+26,24.5468,25.0000,plain grid expected,25.0000,"plain grid 25x25, -23 tiles",+0.0000,0.4532
+603,24^2+27,24.5676,25.0000,plain grid expected,25.0000,"plain grid 25x25, -22 tiles",+0.0000,0.4324
+604,24^2+28,24.5884,25.0000,plain grid expected,25.0000,"plain grid 25x25, -21 tiles",+0.0000,0.4116
+605,24^2+29,24.6091,25.0000,plain grid expected,25.0000,"plain grid 25x25, -20 tiles",+0.0000,0.3909
+606,24^2+30,24.6299,25.0000,plain grid expected,25.0000,"plain grid 25x25, -19 tiles",+0.0000,0.3701
+607,24^2+31,24.6506,25.0000,plain grid expected,25.0000,"plain grid 25x25, -18 tiles",+0.0000,0.3494
+608,24^2+32,24.6713,25.0000,plain grid expected,25.0000,"plain grid 25x25, -17 tiles",+0.0000,0.3287
+609,24^2+33,24.6919,25.0000,plain grid expected,25.0000,"plain grid 25x25, -16 tiles",+0.0000,0.3081
+610,24^2+34,24.7126,25.0000,plain grid expected,25.0000,"plain grid 25x25, -15 tiles",+0.0000,0.2874
+611,24^2+35,24.7332,25.0000,plain grid expected,25.0000,"plain grid 25x25, -14 tiles",+0.0000,0.2668
+612,24^2+36,24.7539,25.0000,plain grid expected,25.0000,"plain grid 25x25, -13 tiles",+0.0000,0.2461
+613,24^2+37,24.7745,25.0000,plain grid expected,25.0000,"plain grid 25x25, -12 tiles",+0.0000,0.2255
+614,24^2+38,24.7951,25.0000,plain grid expected,25.0000,"plain grid 25x25, -11 tiles",+0.0000,0.2049
+615,24^2+39,24.8156,25.0000,plain grid expected,25.0000,"plain grid 25x25, -10 tiles",+0.0000,0.1844
+616,24^2+40,24.8362,25.0000,plain grid expected,25.0000,"plain grid 25x25, -9 tiles",+0.0000,0.1638
+617,24^2+41,24.8567,25.0000,plain grid expected,25.0000,"plain grid 25x25, -8 tiles",+0.0000,0.1433
+618,24^2+42,24.8772,25.0000,plain grid expected,25.0000,"plain grid 25x25, -7 tiles",+0.0000,0.1228
+619,24^2+43,24.8977,25.0000,plain grid expected,25.0000,"plain grid 25x25, -6 tiles",+0.0000,0.1023
+620,24^2+44,24.9182,25.0000,plain grid expected,25.0000,"plain grid 25x25, -5 tiles",+0.0000,0.0818
+621,24^2+45,24.9387,25.0000,plain grid expected,25.0000,"plain grid 25x25, -4 tiles",+0.0000,0.0613
+622,24^2+46,24.9591,25.0000,plain grid expected,25.0000,"plain grid 25x25, -3 tiles",+0.0000,0.0409
+623,24^2+47,24.9796,25.0000,plain grid expected,25.0000,"plain grid 25x25, -2 tiles",+0.0000,0.0204
+624,24^2+48,25.0000,25.0000,plain grid expected,25.0000,"plain grid 25x25, -1 tiles",+0.0000,0.0000
+625,25^2+0,25.0000,25.0000,perfect square,25.0000,plain grid 25x25,+0.0000,0.0000
+626,25^2+1,25.0204,25.5276,one-row pattern fitted on blocks 15 to 17,25.5208,45deg band 17x17 shifted half in side 25.5208,-0.0068,0.5004
+627,25^2+2,25.0408,25.5355,"published record below 325, carried up by adding L",25.5355,45deg band 5x29 in side 25.5355,+0.0000,0.4948
+628,25^2+3,25.0611,25.5614,one-row pattern fitted on blocks 15 to 17,25.5711,45deg band 10x22 shifted half in side 25.5711,+0.0096,0.5099
+629,25^2+4,25.0815,25.5901,one-row pattern fitted on blocks 15 to 17,25.6066,"45deg band 15x15 in side 25.6066, -1 tiles",+0.0165,0.5251
+630,25^2+5,25.1018,25.6169,one-row pattern fitted on blocks 15 to 17,25.6066,45deg band 15x15 in side 25.6066,-0.0103,0.5048
+631,25^2+6,25.1221,25.6451,one-row pattern fitted on blocks 15 to 17,25.6569,"45deg band 8x27 in side 25.6569, -1 tiles",+0.0118,0.5347
+632,25^2+7,25.1424,25.6658,one-row pattern fitted on blocks 15 to 17,25.6569,45deg band 8x27 in side 25.6569,-0.0089,0.5144
+633,25^2+8,25.1627,25.6860,one-row pattern fitted on blocks 15 to 17,25.6924,45deg band 13x20 shifted half in side 25.6924,+0.0064,0.5297
+634,25^2+9,25.1830,25.7053,one-row pattern fitted on blocks 15 to 17,25.7071,"45deg band 1x32 in side 25.7071, -1 tiles",+0.0018,0.5241
+635,25^2+10,25.2032,25.7180,one-row pattern fitted on blocks 15 to 17,25.7071,45deg band 1x32 in side 25.7071,-0.0109,0.5039
+636,25^2+11,25.2235,25.7451,one-row pattern fitted on blocks 15 to 17,25.7279,45deg band 18x18 in side 25.7279,-0.0172,0.5045
+637,25^2+12,25.2437,25.7704,one-row pattern fitted on blocks 15 to 17,25.7782,"45deg band 11x23 in side 25.7782, -1 tiles",+0.0078,0.5345
+638,25^2+13,25.2639,25.7829,one-row pattern fitted on blocks 15 to 17,25.7782,45deg band 11x23 in side 25.7782,-0.0047,0.5143
+639,25^2+14,25.2841,25.7994,one-row pattern fitted on blocks 15 to 17,25.8137,45deg band 16x16 shifted half in side 25.8137,+0.0143,0.5296
+640,25^2+15,25.3042,25.8241,one-row pattern fitted on blocks 15 to 17,25.8284,45deg band 4x28 in side 25.8284,+0.0044,0.5242
+641,25^2+16,25.3244,25.8338,one-row pattern fitted on blocks 15 to 17,25.8995,"45deg band 14x21 in side 25.8995, -3 tiles",+0.0657,0.5751
+642,25^2+17,25.3445,25.8510,one-row pattern fitted on blocks 15 to 17,25.8995,"45deg band 14x21 in side 25.8995, -2 tiles",+0.0485,0.5550
+643,25^2+18,25.3646,25.8759,one-row pattern fitted on blocks 15 to 17,25.8995,"45deg band 14x21 in side 25.8995, -1 tiles",+0.0236,0.5349
+644,25^2+19,25.3847,25.8957,one-row pattern fitted on blocks 15 to 17,25.8995,45deg band 14x21 in side 25.8995,+0.0038,0.5148
+645,25^2+20,25.4048,25.9183,one-row pattern fitted on blocks 15 to 17,25.9142,45deg band 2x33 shifted half in side 25.9142,-0.0041,0.5094
+646,25^2+21,25.4249,25.9384,one-row pattern fitted on blocks 15 to 17,25.9497,45deg band 7x28 in side 25.9497,+0.0113,0.5249
+647,25^2+22,25.4449,25.9538,one-row pattern fitted on blocks 15 to 17,25.9853,"45deg band 12x24 shifted half in side 25.9853, -2 tiles",+0.0314,0.5403
+648,25^2+23,25.4650,25.9634,one-row pattern fitted on blocks 15 to 17,25.9853,"45deg band 12x24 shifted half in side 25.9853, -1 tiles",+0.0219,0.5203
+649,25^2+24,25.4850,25.9727,one-row pattern fitted on blocks 15 to 17,25.9853,45deg band 12x24 shifted half in side 25.9853,+0.0126,0.5003
+650,25^2+25,25.5050,25.9819,one-row pattern fitted on blocks 15 to 17,26.0000,"plain grid 26x26, -26 tiles",+0.0181,0.4950
+651,25^2+26,25.5250,25.9921,one-row pattern fitted on blocks 15 to 17,26.0000,"plain grid 26x26, -25 tiles",+0.0079,0.4750
+652,25^2+27,25.5450,26.0000,plain grid expected,26.0000,"plain grid 26x26, -24 tiles",+0.0000,0.4550
+653,25^2+28,25.5649,26.0000,plain grid expected,26.0000,"plain grid 26x26, -23 tiles",+0.0000,0.4351
+654,25^2+29,25.5849,26.0000,plain grid expected,26.0000,"plain grid 26x26, -22 tiles",+0.0000,0.4151
+655,25^2+30,25.6048,26.0000,plain grid expected,26.0000,"plain grid 26x26, -21 tiles",+0.0000,0.3952
+656,25^2+31,25.6247,26.0000,plain grid expected,26.0000,"plain grid 26x26, -20 tiles",+0.0000,0.3753
+657,25^2+32,25.6446,26.0000,plain grid expected,26.0000,"plain grid 26x26, -19 tiles",+0.0000,0.3554
+658,25^2+33,25.6645,26.0000,plain grid expected,26.0000,"plain grid 26x26, -18 tiles",+0.0000,0.3355
+659,25^2+34,25.6843,26.0000,plain grid expected,26.0000,"plain grid 26x26, -17 tiles",+0.0000,0.3157
+660,25^2+35,25.7042,26.0000,plain grid expected,26.0000,"plain grid 26x26, -16 tiles",+0.0000,0.2958
+661,25^2+36,25.7240,26.0000,plain grid expected,26.0000,"plain grid 26x26, -15 tiles",+0.0000,0.2760
+662,25^2+37,25.7438,26.0000,plain grid expected,26.0000,"plain grid 26x26, -14 tiles",+0.0000,0.2562
+663,25^2+38,25.7636,26.0000,plain grid expected,26.0000,"plain grid 26x26, -13 tiles",+0.0000,0.2364
+664,25^2+39,25.7834,26.0000,plain grid expected,26.0000,"plain grid 26x26, -12 tiles",+0.0000,0.2166
+665,25^2+40,25.8032,26.0000,plain grid expected,26.0000,"plain grid 26x26, -11 tiles",+0.0000,0.1968
+666,25^2+41,25.8229,26.0000,plain grid expected,26.0000,"plain grid 26x26, -10 tiles",+0.0000,0.1771
+667,25^2+42,25.8427,26.0000,plain grid expected,26.0000,"plain grid 26x26, -9 tiles",+0.0000,0.1573
+668,25^2+43,25.8624,26.0000,plain grid expected,26.0000,"plain grid 26x26, -8 tiles",+0.0000,0.1376
+669,25^2+44,25.8821,26.0000,plain grid expected,26.0000,"plain grid 26x26, -7 tiles",+0.0000,0.1179
+670,25^2+45,25.9018,26.0000,plain grid expected,26.0000,"plain grid 26x26, -6 tiles",+0.0000,0.0982
+671,25^2+46,25.9214,26.0000,plain grid expected,26.0000,"plain grid 26x26, -5 tiles",+0.0000,0.0786
+672,25^2+47,25.9411,26.0000,plain grid expected,26.0000,"plain grid 26x26, -4 tiles",+0.0000,0.0589
+673,25^2+48,25.9608,26.0000,plain grid expected,26.0000,"plain grid 26x26, -3 tiles",+0.0000,0.0392
+674,25^2+49,25.9804,26.0000,plain grid expected,26.0000,"plain grid 26x26, -2 tiles",+0.0000,0.0196
+675,25^2+50,26.0000,26.0000,plain grid expected,26.0000,"plain grid 26x26, -1 tiles",+0.0000,0.0000
+676,26^2+0,26.0000,26.0000,perfect square,26.0000,plain grid 26x26,+0.0000,0.0000
+677,26^2+1,26.0196,26.5271,one-row pattern fitted on blocks 15 to 17,26.5208,45deg band 17x17 shifted half in side 26.5208,-0.0063,0.5012
+678,26^2+2,26.0392,26.5355,"published record below 325, carried up by adding L",26.5355,45deg band 5x29 in side 26.5355,+0.0000,0.4963
+679,26^2+3,26.0588,26.5590,one-row pattern fitted on blocks 15 to 17,26.5711,45deg band 10x22 shifted half in side 26.5711,+0.0120,0.5123
+680,26^2+4,26.0783,26.5857,one-row pattern fitted on blocks 15 to 17,26.6066,"45deg band 15x15 in side 26.6066, -1 tiles",+0.0209,0.5283
+681,26^2+5,26.0979,26.6120,one-row pattern fitted on blocks 15 to 17,26.6066,45deg band 15x15 in side 26.6066,-0.0054,0.5088
+682,26^2+6,26.1174,26.6390,one-row pattern fitted on blocks 15 to 17,26.6569,"45deg band 8x27 in side 26.6569, -1 tiles",+0.0178,0.5395
+683,26^2+7,26.1369,26.6615,one-row pattern fitted on blocks 15 to 17,26.6569,45deg band 8x27 in side 26.6569,-0.0046,0.5200
+684,26^2+8,26.1564,26.6795,one-row pattern fitted on blocks 15 to 17,26.6924,45deg band 13x20 shifted half in side 26.6924,+0.0129,0.5360
+685,26^2+9,26.1759,26.7006,one-row pattern fitted on blocks 15 to 17,26.7071,"45deg band 1x32 in side 26.7071, -1 tiles",+0.0065,0.5312
+686,26^2+10,26.1953,26.7130,one-row pattern fitted on blocks 15 to 17,26.7071,45deg band 1x32 in side 26.7071,-0.0059,0.5118
+687,26^2+11,26.2148,26.7328,one-row pattern fitted on blocks 15 to 17,26.7279,"45deg band 18x18 in side 26.7279, -1 tiles",-0.0049,0.5131
+688,26^2+12,26.2342,26.7617,one-row pattern fitted on blocks 15 to 17,26.7279,45deg band 18x18 in side 26.7279,-0.0338,0.4937
+689,26^2+13,26.2536,26.7789,one-row pattern fitted on blocks 15 to 17,26.7782,45deg band 11x23 in side 26.7782,-0.0007,0.5245
+690,26^2+14,26.2730,26.7888,one-row pattern fitted on blocks 15 to 17,26.8137,45deg band 16x16 shifted half in side 26.8137,+0.0249,0.5407
+691,26^2+15,26.2924,26.8110,one-row pattern fitted on blocks 15 to 17,26.8284,"45deg band 4x32 in side 26.8284, -1 tiles",+0.0174,0.5360
+692,26^2+16,26.3118,26.8290,one-row pattern fitted on blocks 15 to 17,26.8284,45deg band 4x32 in side 26.8284,-0.0006,0.5166
+693,26^2+17,26.3312,26.8378,one-row pattern fitted on blocks 15 to 17,26.8640,"45deg band 9x28 shifted half in side 26.8640, -1 tiles",+0.0261,0.5328
+694,26^2+18,26.3505,26.8597,one-row pattern fitted on blocks 15 to 17,26.8640,45deg band 9x28 shifted half in side 26.8640,+0.0043,0.5134
+695,26^2+19,26.3699,26.8821,one-row pattern fitted on blocks 15 to 17,26.8995,45deg band 14x21 in side 26.8995,+0.0174,0.5296
+696,26^2+20,26.3892,26.9009,one-row pattern fitted on blocks 15 to 17,26.9142,"45deg band 2x35 shifted half in side 26.9142, -1 tiles",+0.0133,0.5250
+697,26^2+21,26.4085,26.9233,one-row pattern fitted on blocks 15 to 17,26.9142,45deg band 2x35 shifted half in side 26.9142,-0.0091,0.5057
+698,26^2+22,26.4278,26.9417,one-row pattern fitted on blocks 15 to 17,26.9497,"45deg band 7x31 in side 26.9497, -1 tiles",+0.0081,0.5220
+699,26^2+23,26.4471,26.9558,one-row pattern fitted on blocks 15 to 17,26.9497,45deg band 7x31 in side 26.9497,-0.0060,0.5027
+700,26^2+24,26.4663,26.9648,one-row pattern fitted on blocks 15 to 17,26.9853,45deg band 12x24 shifted half in side 26.9853,+0.0205,0.5190
+701,26^2+25,26.4856,26.9737,one-row pattern fitted on blocks 15 to 17,27.0000,"plain grid 27x27, -28 tiles",+0.0263,0.5144
+702,26^2+26,26.5048,26.9826,one-row pattern fitted on blocks 15 to 17,27.0000,"plain grid 27x27, -27 tiles",+0.0174,0.4952
+703,26^2+27,26.5240,26.9924,one-row pattern fitted on blocks 15 to 17,27.0000,"plain grid 27x27, -26 tiles",+0.0076,0.4760
+704,26^2+28,26.5432,27.0000,plain grid expected,27.0000,"plain grid 27x27, -25 tiles",+0.0000,0.4568
+705,26^2+29,26.5624,27.0000,plain grid expected,27.0000,"plain grid 27x27, -24 tiles",+0.0000,0.4376
+706,26^2+30,26.5816,27.0000,plain grid expected,27.0000,"plain grid 27x27, -23 tiles",+0.0000,0.4184
+707,26^2+31,26.6008,27.0000,plain grid expected,27.0000,"plain grid 27x27, -22 tiles",+0.0000,0.3992
+708,26^2+32,26.6199,27.0000,plain grid expected,27.0000,"plain grid 27x27, -21 tiles",+0.0000,0.3801
+709,26^2+33,26.6391,27.0000,plain grid expected,27.0000,"plain grid 27x27, -20 tiles",+0.0000,0.3609
+710,26^2+34,26.6582,27.0000,plain grid expected,27.0000,"plain grid 27x27, -19 tiles",+0.0000,0.3418
+711,26^2+35,26.6773,27.0000,plain grid expected,27.0000,"plain grid 27x27, -18 tiles",+0.0000,0.3227
+712,26^2+36,26.6964,27.0000,plain grid expected,27.0000,"plain grid 27x27, -17 tiles",+0.0000,0.3036
+713,26^2+37,26.7155,27.0000,plain grid expected,27.0000,"plain grid 27x27, -16 tiles",+0.0000,0.2845
+714,26^2+38,26.7345,27.0000,plain grid expected,27.0000,"plain grid 27x27, -15 tiles",+0.0000,0.2655
+715,26^2+39,26.7536,27.0000,plain grid expected,27.0000,"plain grid 27x27, -14 tiles",+0.0000,0.2464
+716,26^2+40,26.7726,27.0000,plain grid expected,27.0000,"plain grid 27x27, -13 tiles",+0.0000,0.2274
+717,26^2+41,26.7916,27.0000,plain grid expected,27.0000,"plain grid 27x27, -12 tiles",+0.0000,0.2084
+718,26^2+42,26.8106,27.0000,plain grid expected,27.0000,"plain grid 27x27, -11 tiles",+0.0000,0.1894
+719,26^2+43,26.8296,27.0000,plain grid expected,27.0000,"plain grid 27x27, -10 tiles",+0.0000,0.1704
+720,26^2+44,26.8486,27.0000,plain grid expected,27.0000,"plain grid 27x27, -9 tiles",+0.0000,0.1514
+721,26^2+45,26.8676,27.0000,plain grid expected,27.0000,"plain grid 27x27, -8 tiles",+0.0000,0.1324
+722,26^2+46,26.8865,27.0000,plain grid expected,27.0000,"plain grid 27x27, -7 tiles",+0.0000,0.1135
+723,26^2+47,26.9055,27.0000,plain grid expected,27.0000,"plain grid 27x27, -6 tiles",+0.0000,0.0945
+724,26^2+48,26.9244,27.0000,plain grid expected,27.0000,"plain grid 27x27, -5 tiles",+0.0000,0.0756
+725,26^2+49,26.9433,27.0000,plain grid expected,27.0000,"plain grid 27x27, -4 tiles",+0.0000,0.0567
+726,26^2+50,26.9622,27.0000,plain grid expected,27.0000,"plain grid 27x27, -3 tiles",+0.0000,0.0378
+727,26^2+51,26.9811,27.0000,plain grid expected,27.0000,"plain grid 27x27, -2 tiles",+0.0000,0.0189
+728,26^2+52,27.0000,27.0000,plain grid expected,27.0000,"plain grid 27x27, -1 tiles",+0.0000,0.0000
+729,27^2+0,27.0000,27.0000,perfect square,27.0000,plain grid 27x27,+0.0000,0.0000
+730,27^2+1,27.0189,27.5266,one-row pattern fitted on blocks 15 to 17,27.5208,45deg band 17x17 shifted half in side 27.5208,-0.0058,0.5020
+731,27^2+2,27.0377,27.5355,"published record below 325, carried up by adding L",27.5355,45deg band 5x29 in side 27.5355,+0.0000,0.4978
+732,27^2+3,27.0565,27.5568,one-row pattern fitted on blocks 15 to 17,27.5711,45deg band 10x22 shifted half in side 27.5711,+0.0143,0.5145
+733,27^2+4,27.0754,27.5817,one-row pattern fitted on blocks 15 to 17,27.6066,"45deg band 15x22 in side 27.6066, -1 tiles",+0.0249,0.5312
+734,27^2+5,27.0942,27.6080,one-row pattern fitted on blocks 15 to 17,27.6066,45deg band 15x22 in side 27.6066,-0.0014,0.5124
+735,27^2+6,27.1130,27.6332,one-row pattern fitted on blocks 15 to 17,27.6213,45deg band 3x34 shifted half in side 27.6213,-0.0119,0.5084
+736,27^2+7,27.1317,27.6571,one-row pattern fitted on blocks 15 to 17,27.6569,45deg band 8x27 in side 27.6569,-0.0002,0.5251
+737,27^2+8,27.1505,27.6734,one-row pattern fitted on blocks 15 to 17,27.6924,"45deg band 13x25 shifted half in side 27.6924, -2 tiles",+0.0190,0.5419
+738,27^2+9,27.1693,27.6940,one-row pattern fitted on blocks 15 to 17,27.6924,"45deg band 13x25 shifted half in side 27.6924, -1 tiles",-0.0016,0.5231
+739,27^2+10,27.1880,27.7092,one-row pattern fitted on blocks 15 to 17,27.6924,45deg band 13x25 shifted half in side 27.6924,-0.0168,0.5044
+740,27^2+11,27.2067,27.7229,one-row pattern fitted on blocks 15 to 17,27.7071,45deg band 1x36 in side 27.7071,-0.0157,0.5004
+741,27^2+12,27.2255,27.7493,one-row pattern fitted on blocks 15 to 17,27.7279,45deg band 18x18 in side 27.7279,-0.0213,0.5025
+742,27^2+13,27.2442,27.7719,one-row pattern fitted on blocks 15 to 17,27.7782,45deg band 11x23 in side 27.7782,+0.0063,0.5340
+743,27^2+14,27.2628,27.7834,one-row pattern fitted on blocks 15 to 17,27.8137,45deg band 16x16 shifted half in side 27.8137,+0.0303,0.5509
+744,27^2+15,27.2815,27.7979,one-row pattern fitted on blocks 15 to 17,27.8284,"45deg band 4x35 in side 27.8284, -2 tiles",+0.0305,0.5469
+745,27^2+16,27.3002,27.8212,one-row pattern fitted on blocks 15 to 17,27.8284,"45deg band 4x35 in side 27.8284, -1 tiles",+0.0073,0.5282
+746,27^2+17,27.3188,27.8326,one-row pattern fitted on blocks 15 to 17,27.8284,45deg band 4x35 in side 27.8284,-0.0041,0.5096
+747,27^2+18,27.3375,27.8439,one-row pattern fitted on blocks 15 to 17,27.8640,45deg band 9x28 shifted half in side 27.8640,+0.0200,0.5265
+748,27^2+19,27.3561,27.8679,one-row pattern fitted on blocks 15 to 17,27.8995,45deg band 14x21 in side 27.8995,+0.0316,0.5434
+749,27^2+20,27.3747,27.8876,one-row pattern fitted on blocks 15 to 17,27.9142,"45deg band 2x35 shifted half in side 27.9142, -1 tiles",+0.0266,0.5395
+750,27^2+21,27.3933,27.9064,one-row pattern fitted on blocks 15 to 17,27.9142,45deg band 2x35 shifted half in side 27.9142,+0.0078,0.5209
+751,27^2+22,27.4119,27.9278,one-row pattern fitted on blocks 15 to 17,27.9350,"45deg band 19x19 shifted half in side 27.9350, -1 tiles",+0.0072,0.5231
+752,27^2+23,27.4305,27.9447,one-row pattern fitted on blocks 15 to 17,27.9350,45deg band 19x19 shifted half in side 27.9350,-0.0097,0.5046
+753,27^2+24,27.4490,27.9575,one-row pattern fitted on blocks 15 to 17,27.9497,45deg band 7x31 in side 27.9497,-0.0078,0.5007
+754,27^2+25,27.4676,27.9661,one-row pattern fitted on blocks 15 to 17,28.0000,"plain grid 28x28, -30 tiles",+0.0339,0.5324
+755,27^2+26,27.4861,27.9747,one-row pattern fitted on blocks 15 to 17,28.0000,"plain grid 28x28, -29 tiles",+0.0253,0.5139
+756,27^2+27,27.5046,27.9833,one-row pattern fitted on blocks 15 to 17,28.0000,"plain grid 28x28, -28 tiles",+0.0167,0.4954
+757,27^2+28,27.5231,27.9927,one-row pattern fitted on blocks 15 to 17,28.0000,"plain grid 28x28, -27 tiles",+0.0073,0.4769
+758,27^2+29,27.5416,28.0000,plain grid expected,28.0000,"plain grid 28x28, -26 tiles",+0.0000,0.4584
+759,27^2+30,27.5601,28.0000,plain grid expected,28.0000,"plain grid 28x28, -25 tiles",+0.0000,0.4399
+760,27^2+31,27.5786,28.0000,plain grid expected,28.0000,"plain grid 28x28, -24 tiles",+0.0000,0.4214
+761,27^2+32,27.5970,28.0000,plain grid expected,28.0000,"plain grid 28x28, -23 tiles",+0.0000,0.4030
+762,27^2+33,27.6155,28.0000,plain grid expected,28.0000,"plain grid 28x28, -22 tiles",+0.0000,0.3845
+763,27^2+34,27.6339,28.0000,plain grid expected,28.0000,"plain grid 28x28, -21 tiles",+0.0000,0.3661
+764,27^2+35,27.6523,28.0000,plain grid expected,28.0000,"plain grid 28x28, -20 tiles",+0.0000,0.3477
+765,27^2+36,27.6708,28.0000,plain grid expected,28.0000,"plain grid 28x28, -19 tiles",+0.0000,0.3292
+766,27^2+37,27.6892,28.0000,plain grid expected,28.0000,"plain grid 28x28, -18 tiles",+0.0000,0.3108
+767,27^2+38,27.7075,28.0000,plain grid expected,28.0000,"plain grid 28x28, -17 tiles",+0.0000,0.2925
+768,27^2+39,27.7259,28.0000,plain grid expected,28.0000,"plain grid 28x28, -16 tiles",+0.0000,0.2741
+769,27^2+40,27.7443,28.0000,plain grid expected,28.0000,"plain grid 28x28, -15 tiles",+0.0000,0.2557
+770,27^2+41,27.7626,28.0000,plain grid expected,28.0000,"plain grid 28x28, -14 tiles",+0.0000,0.2374
+771,27^2+42,27.7809,28.0000,plain grid expected,28.0000,"plain grid 28x28, -13 tiles",+0.0000,0.2191
+772,27^2+43,27.7993,28.0000,plain grid expected,28.0000,"plain grid 28x28, -12 tiles",+0.0000,0.2007
+773,27^2+44,27.8176,28.0000,plain grid expected,28.0000,"plain grid 28x28, -11 tiles",+0.0000,0.1824
+774,27^2+45,27.8359,28.0000,plain grid expected,28.0000,"plain grid 28x28, -10 tiles",+0.0000,0.1641
+775,27^2+46,27.8542,28.0000,plain grid expected,28.0000,"plain grid 28x28, -9 tiles",+0.0000,0.1458
+776,27^2+47,27.8724,28.0000,plain grid expected,28.0000,"plain grid 28x28, -8 tiles",+0.0000,0.1276
+777,27^2+48,27.8907,28.0000,plain grid expected,28.0000,"plain grid 28x28, -7 tiles",+0.0000,0.1093
+778,27^2+49,27.9089,28.0000,plain grid expected,28.0000,"plain grid 28x28, -6 tiles",+0.0000,0.0911
+779,27^2+50,27.9272,28.0000,plain grid expected,28.0000,"plain grid 28x28, -5 tiles",+0.0000,0.0728
+780,27^2+51,27.9454,28.0000,plain grid expected,28.0000,"plain grid 28x28, -4 tiles",+0.0000,0.0546
+781,27^2+52,27.9636,28.0000,plain grid expected,28.0000,"plain grid 28x28, -3 tiles",+0.0000,0.0364
+782,27^2+53,27.9818,28.0000,plain grid expected,28.0000,"plain grid 28x28, -2 tiles",+0.0000,0.0182
+783,27^2+54,28.0000,28.0000,plain grid expected,28.0000,"plain grid 28x28, -1 tiles",+0.0000,0.0000
+784,28^2+0,28.0000,28.0000,perfect square,28.0000,plain grid 28x28,+0.0000,0.0000
+785,28^2+1,28.0182,28.5261,one-row pattern fitted on blocks 15 to 17,28.5208,45deg band 17x17 shifted half in side 28.5208,-0.0053,0.5026
+786,28^2+2,28.0363,28.5355,"published record below 325, carried up by adding L",28.5355,45deg band 5x29 in side 28.5355,+0.0000,0.4992
+787,28^2+3,28.0545,28.5552,one-row pattern fitted on blocks 15 to 17,28.5711,45deg band 10x22 shifted half in side 28.5711,+0.0158,0.5166
+788,28^2+4,28.0726,28.5780,one-row pattern fitted on blocks 15 to 17,28.6066,"45deg band 15x22 in side 28.6066, -1 tiles",+0.0286,0.5340
+789,28^2+5,28.0908,28.6043,one-row pattern fitted on blocks 15 to 17,28.6066,45deg band 15x22 in side 28.6066,+0.0023,0.5158
+790,28^2+6,28.1089,28.6278,one-row pattern fitted on blocks 15 to 17,28.6213,45deg band 3x34 shifted half in side 28.6213,-0.0065,0.5124
+791,28^2+7,28.1270,28.6522,one-row pattern fitted on blocks 15 to 17,28.6569,"45deg band 8x32 in side 28.6569, -1 tiles",+0.0047,0.5299
+792,28^2+8,28.1451,28.6691,one-row pattern fitted on blocks 15 to 17,28.6569,45deg band 8x32 in side 28.6569,-0.0123,0.5118
+793,28^2+9,28.1632,28.6877,one-row pattern fitted on blocks 15 to 17,28.6924,"45deg band 13x25 shifted half in side 28.6924, -1 tiles",+0.0047,0.5292
+794,28^2+10,28.1812,28.7054,one-row pattern fitted on blocks 15 to 17,28.6924,45deg band 13x25 shifted half in side 28.6924,-0.0130,0.5112
+795,28^2+11,28.1993,28.7162,one-row pattern fitted on blocks 15 to 17,28.7071,45deg band 1x36 in side 28.7071,-0.0091,0.5078
+796,28^2+12,28.2173,28.7377,one-row pattern fitted on blocks 15 to 17,28.7279,45deg band 18x18 in side 28.7279,-0.0098,0.5106
+797,28^2+13,28.2354,28.7645,one-row pattern fitted on blocks 15 to 17,28.7782,45deg band 11x23 in side 28.7782,+0.0136,0.5428
+798,28^2+14,28.2534,28.7797,one-row pattern fitted on blocks 15 to 17,28.8137,"45deg band 16x23 shifted half in side 28.8137, -2 tiles",+0.0340,0.5603
+799,28^2+15,28.2714,28.7883,one-row pattern fitted on blocks 15 to 17,28.8137,"45deg band 16x23 shifted half in side 28.8137, -1 tiles",+0.0254,0.5423
+800,28^2+16,28.2894,28.8079,one-row pattern fitted on blocks 15 to 17,28.8137,45deg band 16x23 shifted half in side 28.8137,+0.0059,0.5243
+801,28^2+17,28.3074,28.8277,one-row pattern fitted on blocks 15 to 17,28.8284,"45deg band 4x35 in side 28.8284, -1 tiles",+0.0007,0.5211
+802,28^2+18,28.3253,28.8359,one-row pattern fitted on blocks 15 to 17,28.8284,45deg band 4x35 in side 28.8284,-0.0075,0.5031
+803,28^2+19,28.3433,28.8516,one-row pattern fitted on blocks 15 to 17,28.8995,"45deg band 14x26 in side 28.8995, -3 tiles",+0.0479,0.5562
+804,28^2+20,28.3613,28.8743,one-row pattern fitted on blocks 15 to 17,28.8995,"45deg band 14x26 in side 28.8995, -2 tiles",+0.0252,0.5382
+805,28^2+21,28.3792,28.8925,one-row pattern fitted on blocks 15 to 17,28.8995,"45deg band 14x26 in side 28.8995, -1 tiles",+0.0070,0.5203
+806,28^2+22,28.3971,28.9117,one-row pattern fitted on blocks 15 to 17,28.8995,45deg band 14x26 in side 28.8995,-0.0122,0.5024
+807,28^2+23,28.4150,28.9321,one-row pattern fitted on blocks 15 to 17,28.9142,45deg band 2x38 shifted half in side 28.9142,-0.0178,0.4992
+808,28^2+24,28.4330,28.9475,one-row pattern fitted on blocks 15 to 17,28.9497,45deg band 7x31 in side 28.9497,+0.0023,0.5168
+809,28^2+25,28.4508,28.9591,one-row pattern fitted on blocks 15 to 17,29.0000,"plain grid 29x29, -32 tiles",+0.0409,0.5492
+810,28^2+26,28.4687,28.9673,one-row pattern fitted on blocks 15 to 17,29.0000,"plain grid 29x29, -31 tiles",+0.0327,0.5313
+811,28^2+27,28.4866,28.9756,one-row pattern fitted on blocks 15 to 17,29.0000,"plain grid 29x29, -30 tiles",+0.0244,0.5134
+812,28^2+28,28.5045,28.9839,one-row pattern fitted on blocks 15 to 17,29.0000,"plain grid 29x29, -29 tiles",+0.0161,0.4955
+813,28^2+29,28.5223,28.9930,one-row pattern fitted on blocks 15 to 17,29.0000,"plain grid 29x29, -28 tiles",+0.0070,0.4777
+814,28^2+30,28.5401,29.0000,plain grid expected,29.0000,"plain grid 29x29, -27 tiles",+0.0000,0.4599
+815,28^2+31,28.5580,29.0000,plain grid expected,29.0000,"plain grid 29x29, -26 tiles",+0.0000,0.4420
+816,28^2+32,28.5758,29.0000,plain grid expected,29.0000,"plain grid 29x29, -25 tiles",+0.0000,0.4242
+817,28^2+33,28.5936,29.0000,plain grid expected,29.0000,"plain grid 29x29, -24 tiles",+0.0000,0.4064
+818,28^2+34,28.6114,29.0000,plain grid expected,29.0000,"plain grid 29x29, -23 tiles",+0.0000,0.3886
+819,28^2+35,28.6292,29.0000,plain grid expected,29.0000,"plain grid 29x29, -22 tiles",+0.0000,0.3708
+820,28^2+36,28.6469,29.0000,plain grid expected,29.0000,"plain grid 29x29, -21 tiles",+0.0000,0.3531
+821,28^2+37,28.6647,29.0000,plain grid expected,29.0000,"plain grid 29x29, -20 tiles",+0.0000,0.3353
+822,28^2+38,28.6824,29.0000,plain grid expected,29.0000,"plain grid 29x29, -19 tiles",+0.0000,0.3176
+823,28^2+39,28.7002,29.0000,plain grid expected,29.0000,"plain grid 29x29, -18 tiles",+0.0000,0.2998
+824,28^2+40,28.7179,29.0000,plain grid expected,29.0000,"plain grid 29x29, -17 tiles",+0.0000,0.2821
+825,28^2+41,28.7356,29.0000,plain grid expected,29.0000,"plain grid 29x29, -16 tiles",+0.0000,0.2644
+826,28^2+42,28.7533,29.0000,plain grid expected,29.0000,"plain grid 29x29, -15 tiles",+0.0000,0.2467
+827,28^2+43,28.7710,29.0000,plain grid expected,29.0000,"plain grid 29x29, -14 tiles",+0.0000,0.2290
+828,28^2+44,28.7887,29.0000,plain grid expected,29.0000,"plain grid 29x29, -13 tiles",+0.0000,0.2113
+829,28^2+45,28.8064,29.0000,plain grid expected,29.0000,"plain grid 29x29, -12 tiles",+0.0000,0.1936
+830,28^2+46,28.8240,29.0000,plain grid expected,29.0000,"plain grid 29x29, -11 tiles",+0.0000,0.1760
+831,28^2+47,28.8417,29.0000,plain grid expected,29.0000,"plain grid 29x29, -10 tiles",+0.0000,0.1583
+832,28^2+48,28.8593,29.0000,plain grid expected,29.0000,"plain grid 29x29, -9 tiles",+0.0000,0.1407
+833,28^2+49,28.8769,29.0000,plain grid expected,29.0000,"plain grid 29x29, -8 tiles",+0.0000,0.1231
+834,28^2+50,28.8945,29.0000,plain grid expected,29.0000,"plain grid 29x29, -7 tiles",+0.0000,0.1055
+835,28^2+51,28.9121,29.0000,plain grid expected,29.0000,"plain grid 29x29, -6 tiles",+0.0000,0.0879
+836,28^2+52,28.9297,29.0000,plain grid expected,29.0000,"plain grid 29x29, -5 tiles",+0.0000,0.0703
+837,28^2+53,28.9473,29.0000,plain grid expected,29.0000,"plain grid 29x29, -4 tiles",+0.0000,0.0527
+838,28^2+54,28.9649,29.0000,plain grid expected,29.0000,"plain grid 29x29, -3 tiles",+0.0000,0.0351
+839,28^2+55,28.9825,29.0000,plain grid expected,29.0000,"plain grid 29x29, -2 tiles",+0.0000,0.0175
+840,28^2+56,29.0000,29.0000,plain grid expected,29.0000,"plain grid 29x29, -1 tiles",+0.0000,0.0000
+841,29^2+0,29.0000,29.0000,perfect square,29.0000,plain grid 29x29,+0.0000,0.0000
+842,29^2+1,29.0175,29.5257,one-row pattern fitted on blocks 15 to 17,29.5208,45deg band 17x17 shifted half in side 29.5208,-0.0048,0.5033
+843,29^2+2,29.0351,29.5355,"published record below 325, carried up by adding L",29.5355,45deg band 5x29 in side 29.5355,+0.0000,0.5005
+844,29^2+3,29.0526,29.5540,one-row pattern fitted on blocks 15 to 17,29.5711,45deg band 10x29 shifted half in side 29.5711,+0.0170,0.5185
+845,29^2+4,29.0701,29.5745,one-row pattern fitted on blocks 15 to 17,29.6066,"45deg band 15x22 in side 29.6066, -1 tiles",+0.0321,0.5365
+846,29^2+5,29.0876,29.6002,one-row pattern fitted on blocks 15 to 17,29.6066,45deg band 15x22 in side 29.6066,+0.0064,0.5190
+847,29^2+6,29.1051,29.6228,one-row pattern fitted on blocks 15 to 17,29.6213,45deg band 3x34 shifted half in side 29.6213,-0.0015,0.5163
+848,29^2+7,29.1225,29.6471,one-row pattern fitted on blocks 15 to 17,29.6421,"45deg band 20x20 shifted half in side 29.6421, -1 tiles",-0.0050,0.5196
+849,29^2+8,29.1400,29.6652,one-row pattern fitted on blocks 15 to 17,29.6421,45deg band 20x20 shifted half in side 29.6421,-0.0231,0.5021
+850,29^2+9,29.1575,29.6818,one-row pattern fitted on blocks 15 to 17,29.6569,45deg band 8x32 in side 29.6569,-0.0250,0.4994
+851,29^2+10,29.1749,29.7009,one-row pattern fitted on blocks 15 to 17,29.6924,45deg band 13x25 shifted half in side 29.6924,-0.0085,0.5175
+852,29^2+11,29.1923,29.7123,one-row pattern fitted on blocks 15 to 17,29.7071,"45deg band 1x39 in side 29.7071, -1 tiles",-0.0052,0.5148
+853,29^2+12,29.2098,29.7271,one-row pattern fitted on blocks 15 to 17,29.7071,45deg band 1x39 in side 29.7071,-0.0200,0.4974
+854,29^2+13,29.2272,29.7528,one-row pattern fitted on blocks 15 to 17,29.7782,"45deg band 11x30 in side 29.7782, -2 tiles",+0.0253,0.5510
+855,29^2+14,29.2446,29.7732,one-row pattern fitted on blocks 15 to 17,29.7782,"45deg band 11x30 in side 29.7782, -1 tiles",+0.0050,0.5336
+856,29^2+15,29.2620,29.7839,one-row pattern fitted on blocks 15 to 17,29.7782,45deg band 11x30 in side 29.7782,-0.0057,0.5162
+857,29^2+16,29.2793,29.7966,one-row pattern fitted on blocks 15 to 17,29.8137,45deg band 16x23 shifted half in side 29.8137,+0.0172,0.5344
+858,29^2+17,29.2967,29.8186,one-row pattern fitted on blocks 15 to 17,29.8284,"45deg band 4x35 in side 29.8284, -1 tiles",+0.0098,0.5317
+859,29^2+18,29.3141,29.8316,one-row pattern fitted on blocks 15 to 17,29.8284,45deg band 4x35 in side 29.8284,-0.0032,0.5144
+860,29^2+19,29.3314,29.8398,one-row pattern fitted on blocks 15 to 17,29.8492,"45deg band 21x21 in side 29.8492, -1 tiles",+0.0095,0.5178
+861,29^2+20,29.3487,29.8593,one-row pattern fitted on blocks 15 to 17,29.8492,45deg band 21x21 in side 29.8492,-0.0100,0.5005
+862,29^2+21,29.3661,29.8801,one-row pattern fitted on blocks 15 to 17,29.8995,"45deg band 14x26 in side 29.8995, -1 tiles",+0.0194,0.5334
+863,29^2+22,29.3834,29.8972,one-row pattern fitted on blocks 15 to 17,29.8995,45deg band 14x26 in side 29.8995,+0.0023,0.5161
+864,29^2+23,29.4007,29.9165,one-row pattern fitted on blocks 15 to 17,29.9142,45deg band 2x38 shifted half in side 29.9142,-0.0023,0.5135
+865,29^2+24,29.4180,29.9353,one-row pattern fitted on blocks 15 to 17,29.9497,45deg band 7x31 in side 29.9497,+0.0144,0.5318
+866,29^2+25,29.4353,29.9500,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -34 tiles",+0.0500,0.5647
+867,29^2+26,29.4525,29.9605,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -33 tiles",+0.0395,0.5475
+868,29^2+27,29.4698,29.9685,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -32 tiles",+0.0315,0.5302
+869,29^2+28,29.4871,29.9765,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -31 tiles",+0.0235,0.5129
+870,29^2+29,29.5043,29.9845,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -30 tiles",+0.0155,0.4957
+871,29^2+30,29.5215,29.9933,one-row pattern fitted on blocks 15 to 17,30.0000,"plain grid 30x30, -29 tiles",+0.0067,0.4785
+872,29^2+31,29.5388,30.0000,plain grid expected,30.0000,"plain grid 30x30, -28 tiles",+0.0000,0.4612
+873,29^2+32,29.5560,30.0000,plain grid expected,30.0000,"plain grid 30x30, -27 tiles",+0.0000,0.4440
+874,29^2+33,29.5732,30.0000,plain grid expected,30.0000,"plain grid 30x30, -26 tiles",+0.0000,0.4268
+875,29^2+34,29.5904,30.0000,plain grid expected,30.0000,"plain grid 30x30, -25 tiles",+0.0000,0.4096
+876,29^2+35,29.6076,30.0000,plain grid expected,30.0000,"plain grid 30x30, -24 tiles",+0.0000,0.3924
+877,29^2+36,29.6247,30.0000,plain grid expected,30.0000,"plain grid 30x30, -23 tiles",+0.0000,0.3753
+878,29^2+37,29.6419,30.0000,plain grid expected,30.0000,"plain grid 30x30, -22 tiles",+0.0000,0.3581
+879,29^2+38,29.6590,30.0000,plain grid expected,30.0000,"plain grid 30x30, -21 tiles",+0.0000,0.3410
+880,29^2+39,29.6762,30.0000,plain grid expected,30.0000,"plain grid 30x30, -20 tiles",+0.0000,0.3238
+881,29^2+40,29.6933,30.0000,plain grid expected,30.0000,"plain grid 30x30, -19 tiles",+0.0000,0.3067
+882,29^2+41,29.7104,30.0000,plain grid expected,30.0000,"plain grid 30x30, -18 tiles",+0.0000,0.2896
+883,29^2+42,29.7276,30.0000,plain grid expected,30.0000,"plain grid 30x30, -17 tiles",+0.0000,0.2724
+884,29^2+43,29.7447,30.0000,plain grid expected,30.0000,"plain grid 30x30, -16 tiles",+0.0000,0.2553
+885,29^2+44,29.7617,30.0000,plain grid expected,30.0000,"plain grid 30x30, -15 tiles",+0.0000,0.2383
+886,29^2+45,29.7788,30.0000,plain grid expected,30.0000,"plain grid 30x30, -14 tiles",+0.0000,0.2212
+887,29^2+46,29.7959,30.0000,plain grid expected,30.0000,"plain grid 30x30, -13 tiles",+0.0000,0.2041
+888,29^2+47,29.8130,30.0000,plain grid expected,30.0000,"plain grid 30x30, -12 tiles",+0.0000,0.1870
+889,29^2+48,29.8300,30.0000,plain grid expected,30.0000,"plain grid 30x30, -11 tiles",+0.0000,0.1700
+890,29^2+49,29.8471,30.0000,plain grid expected,30.0000,"plain grid 30x30, -10 tiles",+0.0000,0.1529
+891,29^2+50,29.8641,30.0000,plain grid expected,30.0000,"plain grid 30x30, -9 tiles",+0.0000,0.1359
+892,29^2+51,29.8811,30.0000,plain grid expected,30.0000,"plain grid 30x30, -8 tiles",+0.0000,0.1189
+893,29^2+52,29.8981,30.0000,plain grid expected,30.0000,"plain grid 30x30, -7 tiles",+0.0000,0.1019
+894,29^2+53,29.9151,30.0000,plain grid expected,30.0000,"plain grid 30x30, -6 tiles",+0.0000,0.0849
+895,29^2+54,29.9321,30.0000,plain grid expected,30.0000,"plain grid 30x30, -5 tiles",+0.0000,0.0679
+896,29^2+55,29.9491,30.0000,plain grid expected,30.0000,"plain grid 30x30, -4 tiles",+0.0000,0.0509
+897,29^2+56,29.9661,30.0000,plain grid expected,30.0000,"plain grid 30x30, -3 tiles",+0.0000,0.0339
+898,29^2+57,29.9830,30.0000,plain grid expected,30.0000,"plain grid 30x30, -2 tiles",+0.0000,0.0170
+899,29^2+58,30.0000,30.0000,plain grid expected,30.0000,"plain grid 30x30, -1 tiles",+0.0000,0.0000
+900,30^2+0,30.0000,30.0000,perfect square,30.0000,plain grid 30x30,+0.0000,0.0000
+901,30^2+1,30.0169,30.5253,one-row pattern fitted on blocks 15 to 17,30.5208,"45deg band 17x17 shifted half in side 29.5208, +1 L",-0.0044,0.5039
+902,30^2+2,30.0339,30.5355,"published record below 325, carried up by adding L",30.5355,45deg band 5x36 in side 30.5355,+0.0000,0.5017
+903,30^2+3,30.0508,30.5529,one-row pattern fitted on blocks 15 to 17,30.5711,45deg band 10x29 shifted half in side 30.5711,+0.0182,0.5203
+904,30^2+4,30.0677,30.5713,one-row pattern fitted on blocks 15 to 17,30.6066,"45deg band 15x27 in side 30.6066, -2 tiles",+0.0353,0.5389
+905,30^2+5,30.0846,30.5961,one-row pattern fitted on blocks 15 to 17,30.6066,"45deg band 15x27 in side 30.6066, -1 tiles",+0.0105,0.5220
+906,30^2+6,30.1015,30.6181,one-row pattern fitted on blocks 15 to 17,30.6066,45deg band 15x27 in side 30.6066,-0.0115,0.5051
+907,30^2+7,30.1184,30.6418,one-row pattern fitted on blocks 15 to 17,30.6213,45deg band 3x39 shifted half in side 30.6213,-0.0205,0.5029
+908,30^2+8,30.1353,30.6615,one-row pattern fitted on blocks 15 to 17,30.6421,45deg band 20x20 shifted half in side 30.6421,-0.0193,0.5069
+909,30^2+9,30.1522,30.6763,one-row pattern fitted on blocks 15 to 17,30.6569,45deg band 8x32 in side 30.6569,-0.0194,0.5047
+910,30^2+10,30.1690,30.6949,one-row pattern fitted on blocks 15 to 17,30.6924,45deg band 13x25 shifted half in side 30.6924,-0.0025,0.5234
+911,30^2+11,30.1859,30.7091,one-row pattern fitted on blocks 15 to 17,30.7071,"45deg band 1x39 in side 30.7071, -1 tiles",-0.0020,0.5213
+912,30^2+12,30.2027,30.7196,one-row pattern fitted on blocks 15 to 17,30.7071,45deg band 1x39 in side 30.7071,-0.0125,0.5044
+913,30^2+13,30.2195,30.7419,one-row pattern fitted on blocks 15 to 17,30.7782,"45deg band 11x30 in side 30.7782, -2 tiles",+0.0363,0.5587
+914,30^2+14,30.2363,30.7667,one-row pattern fitted on blocks 15 to 17,30.7782,"45deg band 11x30 in side 30.7782, -1 tiles",+0.0115,0.5418
+915,30^2+15,30.2532,30.7804,one-row pattern fitted on blocks 15 to 17,30.7782,45deg band 11x30 in side 30.7782,-0.0023,0.5250
+916,30^2+16,30.2700,30.7879,one-row pattern fitted on blocks 15 to 17,30.8137,45deg band 16x23 shifted half in side 30.8137,+0.0259,0.5438
+917,30^2+17,30.2867,30.8052,one-row pattern fitted on blocks 15 to 17,30.8284,"45deg band 4x35 in side 30.8284, -1 tiles",+0.0232,0.5417
+918,30^2+18,30.3035,30.8263,one-row pattern fitted on blocks 15 to 17,30.8284,45deg band 4x35 in side 30.8284,+0.0022,0.5249
+919,30^2+19,30.3203,30.8346,one-row pattern fitted on blocks 15 to 17,30.8492,"45deg band 21x21 in side 30.8492, -2 tiles",+0.0147,0.5289
+920,30^2+20,30.3371,30.8452,one-row pattern fitted on blocks 15 to 17,30.8492,"45deg band 21x21 in side 30.8492, -1 tiles",+0.0040,0.5122
+921,30^2+21,30.3538,30.8668,one-row pattern fitted on blocks 15 to 17,30.8492,45deg band 21x21 in side 30.8492,-0.0175,0.4954
+922,30^2+22,30.3706,30.8854,one-row pattern fitted on blocks 15 to 17,30.8995,45deg band 14x26 in side 30.8995,+0.0141,0.5289
+923,30^2+23,30.3873,30.9016,one-row pattern fitted on blocks 15 to 17,30.9142,"45deg band 2x40 shifted half in side 30.9142, -1 tiles",+0.0126,0.5269
+924,30^2+24,30.4040,30.9210,one-row pattern fitted on blocks 15 to 17,30.9142,45deg band 2x40 shifted half in side 30.9142,-0.0068,0.5102
+925,30^2+25,30.4207,30.9383,one-row pattern fitted on blocks 15 to 17,30.9497,45deg band 7x35 in side 30.9497,+0.0114,0.5290
+926,30^2+26,30.4374,30.9524,one-row pattern fitted on blocks 15 to 17,30.9853,"45deg band 12x31 shifted half in side 30.9853, -2 tiles",+0.0329,0.5478
+927,30^2+27,30.4541,30.9618,one-row pattern fitted on blocks 15 to 17,30.9853,"45deg band 12x31 shifted half in side 30.9853, -1 tiles",+0.0235,0.5311
+928,30^2+28,30.4708,30.9696,one-row pattern fitted on blocks 15 to 17,30.9853,45deg band 12x31 shifted half in side 30.9853,+0.0157,0.5145
+929,30^2+29,30.4875,30.9773,one-row pattern fitted on blocks 15 to 17,31.0000,"plain grid 31x31, -32 tiles",+0.0227,0.5125
+930,30^2+30,30.5042,30.9850,one-row pattern fitted on blocks 15 to 17,31.0000,"plain grid 31x31, -31 tiles",+0.0150,0.4958
+931,30^2+31,30.5208,30.9935,one-row pattern fitted on blocks 15 to 17,31.0000,"plain grid 31x31, -30 tiles",+0.0065,0.4792
+932,30^2+32,30.5375,31.0000,plain grid expected,31.0000,"plain grid 31x31, -29 tiles",+0.0000,0.4625
+933,30^2+33,30.5541,31.0000,plain grid expected,31.0000,"plain grid 31x31, -28 tiles",+0.0000,0.4459
+934,30^2+34,30.5707,31.0000,plain grid expected,31.0000,"plain grid 31x31, -27 tiles",+0.0000,0.4293
+935,30^2+35,30.5874,31.0000,plain grid expected,31.0000,"plain grid 31x31, -26 tiles",+0.0000,0.4126
+936,30^2+36,30.6040,31.0000,plain grid expected,31.0000,"plain grid 31x31, -25 tiles",+0.0000,0.3960
+937,30^2+37,30.6206,31.0000,plain grid expected,31.0000,"plain grid 31x31, -24 tiles",+0.0000,0.3794
+938,30^2+38,30.6372,31.0000,plain grid expected,31.0000,"plain grid 31x31, -23 tiles",+0.0000,0.3628
+939,30^2+39,30.6538,31.0000,plain grid expected,31.0000,"plain grid 31x31, -22 tiles",+0.0000,0.3462
+940,30^2+40,30.6703,31.0000,plain grid expected,31.0000,"plain grid 31x31, -21 tiles",+0.0000,0.3297
+941,30^2+41,30.6869,31.0000,plain grid expected,31.0000,"plain grid 31x31, -20 tiles",+0.0000,0.3131
+942,30^2+42,30.7035,31.0000,plain grid expected,31.0000,"plain grid 31x31, -19 tiles",+0.0000,0.2965
+943,30^2+43,30.7200,31.0000,plain grid expected,31.0000,"plain grid 31x31, -18 tiles",+0.0000,0.2800
+944,30^2+44,30.7366,31.0000,plain grid expected,31.0000,"plain grid 31x31, -17 tiles",+0.0000,0.2634
+945,30^2+45,30.7531,31.0000,plain grid expected,31.0000,"plain grid 31x31, -16 tiles",+0.0000,0.2469
+946,30^2+46,30.7696,31.0000,plain grid expected,31.0000,"plain grid 31x31, -15 tiles",+0.0000,0.2304
+947,30^2+47,30.7861,31.0000,plain grid expected,31.0000,"plain grid 31x31, -14 tiles",+0.0000,0.2139
+948,30^2+48,30.8026,31.0000,plain grid expected,31.0000,"plain grid 31x31, -13 tiles",+0.0000,0.1974
+949,30^2+49,30.8191,31.0000,plain grid expected,31.0000,"plain grid 31x31, -12 tiles",+0.0000,0.1809
+950,30^2+50,30.8356,31.0000,plain grid expected,31.0000,"plain grid 31x31, -11 tiles",+0.0000,0.1644
+951,30^2+51,30.8521,31.0000,plain grid expected,31.0000,"plain grid 31x31, -10 tiles",+0.0000,0.1479
+952,30^2+52,30.8686,31.0000,plain grid expected,31.0000,"plain grid 31x31, -9 tiles",+0.0000,0.1314
+953,30^2+53,30.8850,31.0000,plain grid expected,31.0000,"plain grid 31x31, -8 tiles",+0.0000,0.1150
+954,30^2+54,30.9015,31.0000,plain grid expected,31.0000,"plain grid 31x31, -7 tiles",+0.0000,0.0985
+955,30^2+55,30.9179,31.0000,plain grid expected,31.0000,"plain grid 31x31, -6 tiles",+0.0000,0.0821
+956,30^2+56,30.9344,31.0000,plain grid expected,31.0000,"plain grid 31x31, -5 tiles",+0.0000,0.0656
+957,30^2+57,30.9508,31.0000,plain grid expected,31.0000,"plain grid 31x31, -4 tiles",+0.0000,0.0492
+958,30^2+58,30.9672,31.0000,plain grid expected,31.0000,"plain grid 31x31, -3 tiles",+0.0000,0.0328
+959,30^2+59,30.9836,31.0000,plain grid expected,31.0000,"plain grid 31x31, -2 tiles",+0.0000,0.0164
+960,30^2+60,31.0000,31.0000,plain grid expected,31.0000,"plain grid 31x31, -1 tiles",+0.0000,0.0000
+961,31^2+0,31.0000,31.0000,perfect square,31.0000,plain grid 31x31,+0.0000,0.0000
+962,31^2+1,31.0164,31.5249,one-row pattern fitted on blocks 15 to 17,31.5208,"45deg band 17x17 shifted half in side 29.5208, +2 L",-0.0041,0.5044
+963,31^2+2,31.0328,31.5355,"published record below 325, carried up by adding L",31.5355,45deg band 5x36 in side 31.5355,+0.0000,0.5028
+964,31^2+3,31.0491,31.5519,one-row pattern fitted on blocks 15 to 17,31.5563,45deg band 22x22 in side 31.5563,+0.0045,0.5072
+965,31^2+4,31.0655,31.5682,one-row pattern fitted on blocks 15 to 17,31.6066,"45deg band 15x27 in side 31.6066, -2 tiles",+0.0384,0.5411
+966,31^2+5,31.0819,31.5924,one-row pattern fitted on blocks 15 to 17,31.6066,"45deg band 15x27 in side 31.6066, -1 tiles",+0.0142,0.5247
+967,31^2+6,31.0982,31.6139,one-row pattern fitted on blocks 15 to 17,31.6066,45deg band 15x27 in side 31.6066,-0.0073,0.5084
+968,31^2+7,31.1145,31.6368,one-row pattern fitted on blocks 15 to 17,31.6213,45deg band 3x39 shifted half in side 31.6213,-0.0154,0.5068
+969,31^2+8,31.1309,31.6574,one-row pattern fitted on blocks 15 to 17,31.6421,45deg band 20x20 shifted half in side 31.6421,-0.0153,0.5113
+970,31^2+9,31.1472,31.6719,one-row pattern fitted on blocks 15 to 17,31.6569,45deg band 8x32 in side 31.6569,-0.0150,0.5097
+971,31^2+10,31.1635,31.6892,one-row pattern fitted on blocks 15 to 17,31.6924,45deg band 13x25 shifted half in side 31.6924,+0.0032,0.5289
+972,31^2+11,31.1798,31.7054,one-row pattern fitted on blocks 15 to 17,31.7071,"45deg band 1x42 in side 31.7071, -2 tiles",+0.0017,0.5273
+973,31^2+12,31.1961,31.7153,one-row pattern fitted on blocks 15 to 17,31.7071,"45deg band 1x42 in side 31.7071, -1 tiles",-0.0082,0.5110
+974,31^2+13,31.2124,31.7317,one-row pattern fitted on blocks 15 to 17,31.7071,45deg band 1x42 in side 31.7071,-0.0246,0.4947
+975,31^2+14,31.2287,31.7560,one-row pattern fitted on blocks 15 to 17,31.7426,45deg band 6x37 shifted half in side 31.7426,-0.0133,0.5140
+976,31^2+15,31.2449,31.7743,one-row pattern fitted on blocks 15 to 17,31.7782,45deg band 11x30 in side 31.7782,+0.0039,0.5333
+977,31^2+16,31.2612,31.7843,one-row pattern fitted on blocks 15 to 17,31.8137,"45deg band 16x28 shifted half in side 31.8137, -3 tiles",+0.0294,0.5525
+978,31^2+17,31.2774,31.7955,one-row pattern fitted on blocks 15 to 17,31.8137,"45deg band 16x28 shifted half in side 31.8137, -2 tiles",+0.0182,0.5363
+979,31^2+18,31.2937,31.8157,one-row pattern fitted on blocks 15 to 17,31.8137,"45deg band 16x28 shifted half in side 31.8137, -1 tiles",-0.0020,0.5200
+980,31^2+19,31.3099,31.8304,one-row pattern fitted on blocks 15 to 17,31.8137,45deg band 16x28 shifted half in side 31.8137,-0.0167,0.5038
+981,31^2+20,31.3261,31.8376,one-row pattern fitted on blocks 15 to 17,31.8284,45deg band 4x40 in side 31.8284,-0.0092,0.5023
+982,31^2+21,31.3423,31.8520,one-row pattern fitted on blocks 15 to 17,31.8492,45deg band 21x21 in side 31.8492,-0.0028,0.5069
+983,31^2+22,31.3585,31.8730,one-row pattern fitted on blocks 15 to 17,31.8995,45deg band 14x26 in side 31.8995,+0.0265,0.5409
+984,31^2+23,31.3747,31.8900,one-row pattern fitted on blocks 15 to 17,31.9142,"45deg band 2x42 shifted half in side 31.9142, -2 tiles",+0.0242,0.5395
+985,31^2+24,31.3909,31.9062,one-row pattern fitted on blocks 15 to 17,31.9142,"45deg band 2x42 shifted half in side 31.9142, -1 tiles",+0.0080,0.5233
+986,31^2+25,31.4071,31.9252,one-row pattern fitted on blocks 15 to 17,31.9142,45deg band 2x42 shifted half in side 31.9142,-0.0109,0.5071
+987,31^2+26,31.4233,31.9412,one-row pattern fitted on blocks 15 to 17,31.9497,"45deg band 7x38 in side 31.9497, -1 tiles",+0.0086,0.5265
+988,31^2+27,31.4395,31.9546,one-row pattern fitted on blocks 15 to 17,31.9497,45deg band 7x38 in side 31.9497,-0.0049,0.5103
+989,31^2+28,31.4556,31.9630,one-row pattern fitted on blocks 15 to 17,31.9853,45deg band 12x31 shifted half in side 31.9853,+0.0223,0.5297
+990,31^2+29,31.4718,31.9706,one-row pattern fitted on blocks 15 to 17,32.0000,"plain grid 32x32, -34 tiles",+0.0294,0.5282
+991,31^2+30,31.4879,31.9780,one-row pattern fitted on blocks 15 to 17,32.0000,"plain grid 32x32, -33 tiles",+0.0220,0.5121
+992,31^2+31,31.5040,31.9855,one-row pattern fitted on blocks 15 to 17,32.0000,"plain grid 32x32, -32 tiles",+0.0145,0.4960
+993,31^2+32,31.5202,31.9937,one-row pattern fitted on blocks 15 to 17,32.0000,"plain grid 32x32, -31 tiles",+0.0063,0.4798
+994,31^2+33,31.5363,32.0000,plain grid expected,32.0000,"plain grid 32x32, -30 tiles",+0.0000,0.4637
+995,31^2+34,31.5524,32.0000,plain grid expected,32.0000,"plain grid 32x32, -29 tiles",+0.0000,0.4476
+996,31^2+35,31.5685,32.0000,plain grid expected,32.0000,"plain grid 32x32, -28 tiles",+0.0000,0.4315
+997,31^2+36,31.5846,32.0000,plain grid expected,32.0000,"plain grid 32x32, -27 tiles",+0.0000,0.4154
+998,31^2+37,31.6006,32.0000,plain grid expected,32.0000,"plain grid 32x32, -26 tiles",+0.0000,0.3994
+999,31^2+38,31.6167,32.0000,plain grid expected,32.0000,"plain grid 32x32, -25 tiles",+0.0000,0.3833
+1000,31^2+39,31.6328,32.0000,plain grid expected,32.0000,"plain grid 32x32, -24 tiles",+0.0000,0.3672
