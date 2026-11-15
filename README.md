@@ -102,7 +102,7 @@ The .8467 ladder gained exactly 2 tiles every 3 blocks at m = 7, 10, 13, 16. If 
 Where the first pass stands, over the 663 non-square n:
 
 - Built is below the plain grid for 302 of them. The prediction is below the grid for 357.
-- Built beats the prediction for 105, matches it for 9, and falls short for 243 (by 0.019 on average, 0.067 at most).
+- Of those 357: built beats the prediction for 105, matches it for 9, and falls short for 243 (by 0.019 on average, 0.067 at most).
 - For 55 of those 243 we have only the plain grid.
 
 We have no table of real records above n = 324, apart from n = 626, which the band program matches (25.5208). So we cannot say which of these, if any, are new.
