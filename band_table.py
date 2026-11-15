@@ -133,24 +133,13 @@ def proven_floor(nmax):
         f = max(f, v); out[n] = f
     return out
 
-def main(lo=325, hi=1000, out="table_325_to_1000.csv"):
-    import csv
+def published_carry(hi):
     rec = published(); pub = lambda n: rec.get(n, float(math.ceil(math.sqrt(n))))
+    return pub, close_table({n: (pub(n) if n <= 324 else float(math.ceil(math.sqrt(n)))) for n in range(1, hi + 1)}, hi)
+
+def build_best(hi):
+    """Best band or grid layout for every n up to hi. Returns a dict n -> (side, base, steps)."""
     lim = hi + 80
-    # --- what the published records below 325 give when carried upward
-    carry = close_table({n: (pub(n) if n <= 324 else float(math.ceil(math.sqrt(n)))) for n in range(1, hi + 1)}, hi)
-    # --- one-row pattern: waste/m as a function of x/m, taken from blocks m = 15, 16, 17
-    us = np.linspace(1/17, 1 + 1/17, 60); curves = []
-    for m in (15, 16, 17):
-        pts = [(x/m, (pub(m*m + x)**2 - (m*m + x))/m) for x in range(1, m + 2)]
-        curves.append(np.interp(us, [a for a, b in pts], [b for a, b in pts]))
-    cu = np.mean(curves, axis=0)
-    def pattern(n):
-        m = math.isqrt(n); x = n - m*m
-        if x == 0: return float(m)
-        if x > m + 1: return float(m + 1)
-        return min(float(m + 1), math.sqrt(n + float(np.interp(x/m, us, cu))*m))
-    # --- build band layouts for every block, keep the best count for each side
     top = {}
     for m in range(1, math.isqrt(hi) + 1):
         for s, c, rc in search_block(m):
@@ -170,24 +159,43 @@ def main(lo=325, hi=1000, out="table_325_to_1000.csv"):
             s, b, ops = best[n]; n2 = n + 2*int(math.floor(s + EPS)) + 1
             if n2 <= lim and (n2 not in best or s + 1 < best[n2][0] - EPS):
                 best[n2] = (s + 1, b, ops + [("L",)]); changed = True
-    def realize(n):
-        s, b, ops = best[n]
-        if b[0] == "grid":
-            k = b[1]; g = np.arange(k) + .5; X, Y = np.meshgrid(g, g); T = np.c_[X.ravel(), Y.ravel(), np.zeros(k*k)]; side = float(k)
-        else:
-            side = b[1]; p, q, d, t, order = b[2]; T = build(side, p, q, d, t, order)
-        for op in ops:
-            if op[0] == "L": T, side = add_L(T, side)
-            elif op[1]: T = T[:len(T) - op[1]]
-        return T, side
-    def label(n):
-        s, b, ops = best[n]
-        nl = sum(1 for o in ops if o[0] == "L"); nd = sum(o[1] for o in ops if o[0] == "drop")
-        if b[0] == "grid": base = f"plain grid {b[1]}x{b[1]}"
-        else:
-            p, q, d, t, order = b[2]; base = f"45deg band {p}x{q}" + (" shifted half" if d else "") + f" in side {b[1]:.4f}"
-        return base + (f", +{nl} L" if nl else "") + (f", -{nd} tiles" if nd else "")
-    # --- safety checks
+    return best
+
+def realize(best, n):
+    """Tile list (centre x, centre y, angle in degrees) and side for the stored layout of n tiles."""
+    s, b, ops = best[n]
+    if b[0] == "grid":
+        k = b[1]; g = np.arange(k) + .5; X, Y = np.meshgrid(g, g); T = np.c_[X.ravel(), Y.ravel(), np.zeros(k*k)]; side = float(k)
+    else:
+        side = b[1]; p, q, d, t, order = b[2]; T = build(side, p, q, d, t, order)
+    for op in ops:
+        if op[0] == "L": T, side = add_L(T, side)
+        elif op[1]: T = T[:len(T) - op[1]]
+    return T, side
+
+def label(best, n):
+    s, b, ops = best[n]
+    nl = sum(1 for o in ops if o[0] == "L"); nd = sum(o[1] for o in ops if o[0] == "drop")
+    if b[0] == "grid": base = f"plain grid {b[1]}x{b[1]}"
+    else:
+        p, q, d, t, order = b[2]; base = f"45deg band {p}x{q}" + (" shifted half" if d else "") + f" in side {b[1]:.4f}"
+    return base + (f", +{nl} L" if nl else "") + (f", -{nd} tiles" if nd else "")
+
+def main(lo=325, hi=1000, out="table_325_to_1000.csv"):
+    import csv
+    pub, carry = published_carry(hi)
+    # one-row pattern: waste/m as a function of x/m, taken from blocks m = 15, 16, 17
+    us = np.linspace(1/17, 1 + 1/17, 60); curves = []
+    for m in (15, 16, 17):
+        pts = [(x/m, (pub(m*m + x)**2 - (m*m + x))/m) for x in range(1, m + 2)]
+        curves.append(np.interp(us, [a for a, b in pts], [b for a, b in pts]))
+    cu = np.mean(curves, axis=0)
+    def pattern(n):
+        m = math.isqrt(n); x = n - m*m
+        if x == 0: return float(m)
+        if x > m + 1: return float(m + 1)
+        return min(float(m + 1), math.sqrt(n + float(np.interp(x/m, us, cu))*m))
+    best = build_best(hi)
     below = [n for n in range(1, 325) if best[n][0] < pub(n) - 2e-5]
     assert not below, ("built below a published record, so something is wrong", below)
     floor = proven_floor(hi); worst = 0.0
@@ -196,14 +204,14 @@ def main(lo=325, hi=1000, out="table_325_to_1000.csv"):
         w.writerow(["n", "as m^2+x", "proven floor", "predicted side", "prediction based on", "built and checked side", "how it was built", "built minus predicted", "built minus floor"])
         for n in range(lo, hi + 1):
             m = math.isqrt(n); x = n - m*m; grid = float(math.ceil(math.sqrt(n)))
-            T, side = realize(n); assert len(T) == n
+            T, side = realize(best, n); assert len(T) == n
             worst = max(worst, check(T, side))
             pat = pattern(n); car = carry[n]
             if x == 0: pred, basis = float(m), "perfect square"
             elif car <= pat + EPS and car < grid - EPS: pred, basis = car, "published record below 325, carried up by adding L"
             elif pat < grid - EPS: pred, basis = pat, "one-row pattern fitted on blocks 15 to 17"
             else: pred, basis = grid, "plain grid expected"
-            w.writerow([n, f"{m}^2+{x}", f"{floor[n]:.4f}", f"{pred:.4f}", basis, f"{side:.4f}", label(n), f"{side - pred:+.4f}", f"{side - floor[n]:.4f}"])
+            w.writerow([n, f"{m}^2+{x}", f"{floor[n]:.4f}", f"{pred:.4f}", basis, f"{side:.4f}", label(best, n), f"{side - pred:+.4f}", f"{side - floor[n]:.4f}"])
     assert worst < 1e-9, worst
     print("wrote", out, "- every layout checked, worst overlap", worst)
 

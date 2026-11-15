@@ -106,3 +106,15 @@ Where the first pass stands, over the 663 non-square n:
 - For 55 of those 243 we have only the plain grid.
 
 We have no table of real records above n = 324, apart from n = 626, which the band program matches (25.5208). So we cannot say which of these, if any, are new.
+
+## Search program
+
+`search.py` takes a layout, disturbs it, squeezes it again, and keeps the result when the box gets smaller. Every saved layout is checked tile against tile. `collect.py` keeps the best result for each n in `results/`.
+
+To run it on GitHub: Actions tab, "Search for smaller boxes", Run workflow. It takes a list of n and a time per number, and runs up to 20 numbers side by side.
+
+What short tests showed, so expectations are right:
+
+- From a band start it reached the published records for n = 18 (4.8229) and n = 19 (4.8856) in about two minutes, and came within 0.004 of the record for n = 54.
+- It made no progress in a few minutes on n = 28 and n = 37, on n = 155 from a plain grid start, or on n = 413 and n = 641.
+- A plain grid with tiles removed is a trap it does not escape. So it is aimed at the numbers whose start is a band layout, not at the top-of-block numbers, which need a better starting layout first.

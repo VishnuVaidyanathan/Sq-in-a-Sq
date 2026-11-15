@@ -1,0 +1,88 @@
+name: Search for smaller boxes
+
+# Start it by hand: Actions tab -> "Search for smaller boxes" -> Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      numbers:
+        description: "Values of n to search, comma separated (at most 20 run at once)"
+        default: "413,641,502,592,374,642,803,371,450,337,335,403,503,545,414,496,965,411,913,334"
+      minutes:
+        description: "Minutes per number (330 at most; a job is stopped at 6 hours)"
+        default: "300"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.make.outputs.matrix }}
+    steps:
+      - id: make
+        env:
+          NUMBERS: ${{ inputs.numbers }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, re
+          ns = sorted({int(x) for x in re.findall(r"\d+", os.environ["NUMBERS"]) if 2 <= int(x) <= 1000})
+          print("matrix=" + json.dumps({"n": ns}))
+          PY
+
+  search:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy scipy
+      - name: Search (one run per processor core, each with its own random seed)
+        env:
+          N: ${{ matrix.n }}
+          MINUTES: ${{ inputs.minutes }}
+        run: |
+          M=$(python3 -c "import os; print(min(330.0, max(1.0, float(os.environ['MINUTES']))))")
+          for i in $(seq 1 "$(nproc)"); do
+            python3 search.py --n "$N" --minutes "$M" --seed "$i" --out "incoming/seed$i" > "log$i.txt" 2>&1 &
+          done
+          wait
+          tail -n 3 log*.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: found-${{ matrix.n }}
+          path: incoming/
+          if-no-files-found: ignore
+
+  collect:
+    needs: search
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy scipy
+      - uses: actions/download-artifact@v4
+        with:
+          path: incoming
+      - name: Keep the best checked layout for each n
+        run: python3 collect.py incoming
+      - name: Save to the repository
+        run: |
+          rm -rf incoming
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results
+          git diff --cached --quiet || git commit -m "Search results"
+          git pull --rebase
+          git push
