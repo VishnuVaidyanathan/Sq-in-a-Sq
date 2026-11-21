@@ -142,10 +142,25 @@ def load(path):
     a = np.array(rows); return np.concatenate([a[:, 0], a[:, 1], a[:, 2]]), side, len(rows)
 
 
-def run(n, minutes, seed, out, start=None, log=print):
+def offcentre_start(n):
+    """Smallest 45-degree band layout that sits half a tile off centre and holds at least n tiles."""
+    m = math.isqrt(n); best = None
+    for s, c, rc in bt.search_block(m):
+        if rc[2] == 0.5 and c >= n and (best is None or s < best[0] - 1e-9 or (abs(s - best[0]) < 1e-9 and c < best[1])):
+            best = (s, c, rc)
+    if best is None: return None
+    s, c, rc = best; T = bt.build(s, *rc)[:n]
+    return T, s, f"off-centre 45deg band {rc[0]}x{rc[1]} in side {s:.4f}, -{c - n} tiles"
+
+
+def run(n, minutes, seed, out, start=None, log=print, offcentre=False):
     rng = np.random.default_rng(seed); t_end = time.time() + 60*minutes
+    oc = offcentre_start(n) if offcentre else None
     if start and os.path.exists(start):
         v, s, k = load(start); assert k == n, "start file has the wrong number of tiles"; origin = f"start file {start}"
+    elif oc is not None:
+        T, s, origin = oc; assert bt.check(T, s) < 1e-9
+        v = np.concatenate([T[:, 0], T[:, 1], np.radians(T[:, 2])])
     else:
         best_tab = bt.build_best(max(n, 30))
         T, s = bt.realize(best_tab, n); origin = bt.label(best_tab, n)
@@ -187,5 +202,6 @@ if __name__ == "__main__":
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--out", default="results")
     ap.add_argument("--start", default=None, help="optional layout file to start from (same format as the results)")
+    ap.add_argument("--offcentre", action="store_true", help="start from a band that sits half a tile off centre")
     a = ap.parse_args()
-    run(a.n, a.minutes, a.seed, a.out, a.start)
+    run(a.n, a.minutes, a.seed, a.out, a.start, offcentre=a.offcentre)

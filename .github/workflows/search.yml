@@ -7,6 +7,9 @@ on:
       numbers:
         description: "Values of n to search, comma separated (at most 20 run at once)"
         default: "413,641,502,592,374,642,803,371,450,337,335,403,503,545,414,496,965,411,913,334"
+      offcentre:
+        description: "Values of n to search from an off-centre band start, comma separated"
+        default: ""
       minutes:
         description: "Minutes per number (330 at most; a job is stopped at 6 hours)"
         default: "300"
@@ -23,11 +26,13 @@ jobs:
       - id: make
         env:
           NUMBERS: ${{ inputs.numbers }}
+          OFFCENTRE: ${{ inputs.offcentre }}
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json, os, re
-          ns = sorted({int(x) for x in re.findall(r"\d+", os.environ["NUMBERS"]) if 2 <= int(x) <= 1000})
-          print("matrix=" + json.dumps({"n": ns}))
+          get = lambda k: sorted({int(x) for x in re.findall(r"\d+", os.environ.get(k, "")) if 2 <= int(x) <= 1000})
+          off = get("OFFCENTRE"); ns = [n for n in get("NUMBERS") if n not in off]
+          print("matrix=" + json.dumps({"include": [{"n": n, "flag": ""} for n in ns] + [{"n": n, "flag": "--offcentre"} for n in off]}))
           PY
 
   search:
@@ -48,10 +53,11 @@ jobs:
         env:
           N: ${{ matrix.n }}
           MINUTES: ${{ inputs.minutes }}
+          FLAG: ${{ matrix.flag }}
         run: |
           M=$(python3 -c "import os; print(min(330.0, max(1.0, float(os.environ['MINUTES']))))")
           for i in $(seq 1 "$(nproc)"); do
-            python3 search.py --n "$N" --minutes "$M" --seed "$i" --out "incoming/seed$i" > "log$i.txt" 2>&1 &
+            python3 search.py --n "$N" --minutes "$M" --seed "$i" --out "incoming/seed$i" $FLAG > "log$i.txt" 2>&1 &
           done
           wait
           tail -n 3 log*.txt
